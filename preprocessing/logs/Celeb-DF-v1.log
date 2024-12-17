@@ -1,0 +1,1480 @@
+2023-09-28 14:19:23,945 - ERROR - Dataset path does not exist: dataset/Celeb-DF-v1
+2023-09-28 14:19:56,187 - ERROR - Dataset path does not exist: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/dataset/Celeb-DF-v1
+2023-09-28 14:21:24,889 - INFO - 158 videos found in /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real
+2023-09-28 14:21:25,809 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,815 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,818 - INFO - Current time: 2023-09-28 14:21:25
+2023-09-28 14:21:25,836 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,837 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,838 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,843 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,845 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,847 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,848 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,852 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,855 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,859 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,861 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,863 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,869 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,869 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,870 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,871 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,880 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,883 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,884 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,891 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,911 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,921 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,926 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,936 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,941 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,949 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,957 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,976 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,980 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:25,993 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,004 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,005 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,020 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,060 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,079 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,086 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,101 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,107 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,115 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,130 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,160 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,161 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,172 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,180 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,185 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,186 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,197 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,205 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,206 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,207 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,234 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,235 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,255 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,259 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,268 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,278 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,285 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,292 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,299 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,312 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,315 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,317 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,318 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,318 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,319 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,321 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,392 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,401 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,407 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,408 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,411 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,440 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,456 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,467 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,587 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,587 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,593 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,599 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,603 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,604 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,632 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,633 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,640 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,641 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,658 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,661 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,663 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,677 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,682 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,698 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,720 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,723 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,728 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,729 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,739 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,742 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,750 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,756 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,757 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,758 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,780 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,804 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,805 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,810 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,822 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,834 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,834 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,854 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,860 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,865 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,868 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,901 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,921 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,931 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,936 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,954 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,956 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,960 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,967 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,980 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:26,986 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,009 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,024 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,030 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,030 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,032 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,053 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,058 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,058 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,062 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,063 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,065 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,072 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,077 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,089 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,089 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,108 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,113 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,113 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,135 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,137 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,148 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,160 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,162 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,161 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,172 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,179 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,180 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,188 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,192 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,194 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,212 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,213 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,215 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,223 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:21:27,229 - ERROR - Predictor path does not exist: ./dlib_tools/shape_predictor_81_face_landmarks.dat
+2023-09-28 14:22:45,933 - INFO - 158 videos found in /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real
+2023-09-28 14:22:48,611 - WARNING - No faces in frame 0 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id11_0004.mp4
+2023-09-28 14:22:49,327 - WARNING - No faces in frame 11 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id11_0004.mp4
+2023-09-28 14:22:49,403 - WARNING - No faces in frame 4 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id10_0001.mp4
+2023-09-28 14:22:50,154 - WARNING - No faces in frame 9 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id10_0001.mp4
+2023-09-28 14:22:50,989 - WARNING - No faces in frame 13 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id10_0001.mp4
+2023-09-28 14:22:51,606 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id10_0001.mp4: 
+2023-09-28 14:22:51,649 - INFO - Current time: 2023-09-28 14:22:51
+2023-09-28 14:22:53,857 - WARNING - No faces in frame 168 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id11_0000.mp4
+2023-09-28 14:22:54,495 - WARNING - No faces in frame 66 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id10_0006.mp4
+2023-09-28 14:22:54,872 - WARNING - No faces in frame 71 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id10_0006.mp4
+2023-09-28 14:22:55,761 - WARNING - No faces in frame 97 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id16_0008.mp4
+2023-09-28 14:23:01,177 - INFO - Current time: 2023-09-28 14:23:01
+2023-09-28 14:23:01,924 - WARNING - No faces in frame 372 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id11_0000.mp4
+2023-09-28 14:23:01,934 - INFO - Current time: 2023-09-28 14:23:01
+2023-09-28 14:23:02,804 - WARNING - No faces in frame 184 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id16_0008.mp4
+2023-09-28 14:23:03,391 - WARNING - No faces in frame 195 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id16_0008.mp4
+2023-09-28 14:23:03,476 - INFO - Current time: 2023-09-28 14:23:03
+2023-09-28 14:23:03,936 - WARNING - No faces in frame 205 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id16_0008.mp4
+2023-09-28 14:23:03,950 - WARNING - No faces in frame 275 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id1_0001.mp4
+2023-09-28 14:23:03,966 - INFO - Current time: 2023-09-28 14:23:03
+2023-09-28 14:23:04,110 - INFO - Current time: 2023-09-28 14:23:04
+2023-09-28 14:23:04,273 - INFO - Current time: 2023-09-28 14:23:04
+2023-09-28 14:23:04,527 - INFO - Current time: 2023-09-28 14:23:04
+2023-09-28 14:23:05,082 - INFO - Current time: 2023-09-28 14:23:05
+2023-09-28 14:23:05,687 - WARNING - No faces in frame 370 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id1_0000.mp4
+2023-09-28 14:23:05,702 - INFO - Current time: 2023-09-28 14:23:05
+2023-09-28 14:23:06,281 - INFO - Current time: 2023-09-28 14:23:06
+2023-09-28 14:23:06,325 - INFO - Current time: 2023-09-28 14:23:06
+2023-09-28 14:23:06,339 - INFO - Current time: 2023-09-28 14:23:06
+2023-09-28 14:23:06,699 - INFO - Current time: 2023-09-28 14:23:06
+2023-09-28 14:23:07,866 - WARNING - No faces in frame 66 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id1_0008.mp4
+2023-09-28 14:23:08,154 - INFO - Current time: 2023-09-28 14:23:08
+2023-09-28 14:23:08,785 - INFO - Current time: 2023-09-28 14:23:08
+2023-09-28 14:23:09,376 - INFO - Current time: 2023-09-28 14:23:09
+2023-09-28 14:23:09,411 - WARNING - No faces in frame 116 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id1_0008.mp4
+2023-09-28 14:23:09,759 - WARNING - No faces in frame 133 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id1_0008.mp4
+2023-09-28 14:23:10,030 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,360 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,372 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,377 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,484 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,601 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,674 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,690 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,804 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:10,902 - INFO - Current time: 2023-09-28 14:23:10
+2023-09-28 14:23:11,157 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,164 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,181 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,370 - WARNING - No faces in frame 350 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id10_0003.mp4
+2023-09-28 14:23:11,383 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,401 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,402 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,403 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,439 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,564 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,584 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,590 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,604 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,726 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:11,737 - INFO - Current time: 2023-09-28 14:23:11
+2023-09-28 14:23:12,161 - INFO - Current time: 2023-09-28 14:23:12
+2023-09-28 14:23:12,184 - INFO - Current time: 2023-09-28 14:23:12
+2023-09-28 14:23:12,204 - INFO - Current time: 2023-09-28 14:23:12
+2023-09-28 14:23:12,279 - INFO - Current time: 2023-09-28 14:23:12
+2023-09-28 14:23:12,324 - INFO - Current time: 2023-09-28 14:23:12
+2023-09-28 14:23:12,568 - INFO - Current time: 2023-09-28 14:23:12
+2023-09-28 14:23:12,585 - INFO - Current time: 2023-09-28 14:23:12
+2023-09-28 14:23:12,893 - INFO - Current time: 2023-09-28 14:23:12
+2023-09-28 14:23:13,197 - INFO - Current time: 2023-09-28 14:23:13
+2023-09-28 14:23:13,500 - INFO - Current time: 2023-09-28 14:23:13
+2023-09-28 14:23:13,711 - INFO - Current time: 2023-09-28 14:23:13
+2023-09-28 14:23:13,754 - INFO - Current time: 2023-09-28 14:23:13
+2023-09-28 14:23:13,833 - INFO - Current time: 2023-09-28 14:23:13
+2023-09-28 14:23:13,860 - INFO - Current time: 2023-09-28 14:23:13
+2023-09-28 14:23:13,971 - INFO - Current time: 2023-09-28 14:23:13
+2023-09-28 14:23:14,025 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,213 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,288 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,380 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,393 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,451 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,522 - WARNING - No faces in frame 501 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id10_0007.mp4
+2023-09-28 14:23:14,532 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,631 - WARNING - No faces in frame 300 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id1_0008.mp4
+2023-09-28 14:23:14,657 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,724 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,757 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,761 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:14,827 - INFO - Current time: 2023-09-28 14:23:14
+2023-09-28 14:23:15,016 - INFO - Current time: 2023-09-28 14:23:15
+2023-09-28 14:23:15,079 - INFO - Current time: 2023-09-28 14:23:15
+2023-09-28 14:23:15,113 - INFO - Current time: 2023-09-28 14:23:15
+2023-09-28 14:23:15,142 - INFO - Current time: 2023-09-28 14:23:15
+2023-09-28 14:23:15,170 - INFO - Current time: 2023-09-28 14:23:15
+2023-09-28 14:23:15,510 - INFO - Current time: 2023-09-28 14:23:15
+2023-09-28 14:23:15,790 - INFO - Current time: 2023-09-28 14:23:15
+2023-09-28 14:23:16,146 - INFO - Current time: 2023-09-28 14:23:16
+2023-09-28 14:23:16,220 - INFO - Current time: 2023-09-28 14:23:16
+2023-09-28 14:23:16,241 - INFO - Current time: 2023-09-28 14:23:16
+2023-09-28 14:23:16,442 - INFO - Current time: 2023-09-28 14:23:16
+2023-09-28 14:23:16,611 - WARNING - No faces in frame 367 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id1_0008.mp4
+2023-09-28 14:23:16,941 - INFO - Current time: 2023-09-28 14:23:16
+2023-09-28 14:23:16,970 - WARNING - No faces in frame 384 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id1_0008.mp4
+2023-09-28 14:23:17,319 - INFO - Current time: 2023-09-28 14:23:17
+2023-09-28 14:23:17,437 - INFO - Current time: 2023-09-28 14:23:17
+2023-09-28 14:23:18,681 - INFO - Current time: 2023-09-28 14:23:18
+2023-09-28 14:23:19,357 - INFO - Current time: 2023-09-28 14:23:19
+2023-09-28 14:23:19,569 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id8_0003.mp4: 
+2023-09-28 14:23:19,591 - INFO - Current time: 2023-09-28 14:23:19
+2023-09-28 14:23:20,360 - INFO - Current time: 2023-09-28 14:23:20
+2023-09-28 14:23:20,976 - INFO - Current time: 2023-09-28 14:23:20
+2023-09-28 14:23:21,846 - INFO - Current time: 2023-09-28 14:23:21
+2023-09-28 14:23:22,164 - INFO - Current time: 2023-09-28 14:23:22
+2023-09-28 14:23:23,679 - INFO - Current time: 2023-09-28 14:23:23
+2023-09-28 14:23:23,937 - INFO - Current time: 2023-09-28 14:23:23
+2023-09-28 14:23:24,818 - WARNING - No faces in frame 242 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id4_0003.mp4
+2023-09-28 14:23:24,884 - INFO - Current time: 2023-09-28 14:23:24
+2023-09-28 14:23:24,933 - INFO - Current time: 2023-09-28 14:23:24
+2023-09-28 14:23:25,705 - INFO - Current time: 2023-09-28 14:23:25
+2023-09-28 14:23:25,815 - INFO - Current time: 2023-09-28 14:23:25
+2023-09-28 14:23:25,978 - INFO - Current time: 2023-09-28 14:23:25
+2023-09-28 14:23:25,985 - INFO - Current time: 2023-09-28 14:23:25
+2023-09-28 14:23:26,019 - INFO - Current time: 2023-09-28 14:23:26
+2023-09-28 14:23:26,272 - INFO - Current time: 2023-09-28 14:23:26
+2023-09-28 14:23:26,589 - INFO - Current time: 2023-09-28 14:23:26
+2023-09-28 14:23:26,841 - INFO - Current time: 2023-09-28 14:23:26
+2023-09-28 14:23:27,032 - INFO - Current time: 2023-09-28 14:23:27
+2023-09-28 14:23:27,927 - INFO - Current time: 2023-09-28 14:23:27
+2023-09-28 14:23:28,091 - INFO - Current time: 2023-09-28 14:23:28
+2023-09-28 14:23:28,483 - INFO - Current time: 2023-09-28 14:23:28
+2023-09-28 14:23:28,862 - INFO - Current time: 2023-09-28 14:23:28
+2023-09-28 14:23:29,003 - INFO - Current time: 2023-09-28 14:23:29
+2023-09-28 14:23:30,427 - INFO - Current time: 2023-09-28 14:23:30
+2023-09-28 14:23:31,956 - INFO - Current time: 2023-09-28 14:23:31
+2023-09-28 14:23:32,359 - INFO - Current time: 2023-09-28 14:23:32
+2023-09-28 14:23:32,443 - INFO - Current time: 2023-09-28 14:23:32
+2023-09-28 14:23:32,754 - INFO - Current time: 2023-09-28 14:23:32
+2023-09-28 14:23:32,950 - INFO - Current time: 2023-09-28 14:23:32
+2023-09-28 14:23:33,010 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,218 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,219 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,261 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,270 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,346 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,551 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,555 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,561 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,598 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,615 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,848 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:33,937 - INFO - Current time: 2023-09-28 14:23:33
+2023-09-28 14:23:34,038 - INFO - Current time: 2023-09-28 14:23:34
+2023-09-28 14:23:35,328 - INFO - Current time: 2023-09-28 14:23:35
+2023-09-28 14:23:35,421 - INFO - Current time: 2023-09-28 14:23:35
+2023-09-28 14:23:35,435 - INFO - Current time: 2023-09-28 14:23:35
+2023-09-28 14:23:35,756 - INFO - Current time: 2023-09-28 14:23:35
+2023-09-28 14:23:35,894 - INFO - Current time: 2023-09-28 14:23:35
+2023-09-28 14:23:35,971 - INFO - Current time: 2023-09-28 14:23:35
+2023-09-28 14:23:36,179 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,232 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,356 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,409 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,421 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,436 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,465 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,493 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,510 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,516 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,525 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,599 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,655 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,679 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,753 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,888 - WARNING - No faces in frame 377 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-real/id8_0009.mp4
+2023-09-28 14:23:36,894 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,952 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:36,965 - INFO - Current time: 2023-09-28 14:23:36
+2023-09-28 14:23:37,003 - INFO - Current time: 2023-09-28 14:23:37
+2023-09-28 14:23:37,024 - INFO - Current time: 2023-09-28 14:23:37
+2023-09-28 14:23:37,114 - INFO - Current time: 2023-09-28 14:23:37
+2023-09-28 14:23:37,115 - INFO - Current time: 2023-09-28 14:23:37
+2023-09-28 14:23:37,156 - INFO - Current time: 2023-09-28 14:23:37
+2023-09-28 14:23:37,210 - INFO - Current time: 2023-09-28 14:23:37
+2023-09-28 14:23:37,453 - INFO - Current time: 2023-09-28 14:23:37
+2023-09-28 14:23:37,454 - INFO - Total time taken: 0.86 minutes
+2023-09-28 14:23:37,632 - INFO - 795 videos found in /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis
+2023-09-28 14:23:41,298 - WARNING - No faces in frame 3 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id10_id11_0001.mp4
+2023-09-28 14:23:41,855 - WARNING - No faces in frame 6 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id10_id11_0001.mp4
+2023-09-28 14:23:42,940 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id10_id11_0001.mp4: 
+2023-09-28 14:23:42,971 - INFO - Current time: 2023-09-28 14:23:42
+2023-09-28 14:23:43,605 - WARNING - No faces in frame 13 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id10_id12_0001.mp4
+2023-09-28 14:23:44,842 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id0_id1_0009.mp4: 
+2023-09-28 14:23:44,857 - INFO - Current time: 2023-09-28 14:23:44
+2023-09-28 14:23:45,143 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id0_id16_0009.mp4: 
+2023-09-28 14:23:45,159 - INFO - Current time: 2023-09-28 14:23:45
+2023-09-28 14:23:45,569 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id0_id3_0009.mp4: 
+2023-09-28 14:23:45,582 - INFO - Current time: 2023-09-28 14:23:45
+2023-09-28 14:23:46,154 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id0_id17_0009.mp4: 
+2023-09-28 14:23:46,164 - INFO - Current time: 2023-09-28 14:23:46
+2023-09-28 14:23:46,606 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id0_id6_0009.mp4: 
+2023-09-28 14:23:46,619 - INFO - Current time: 2023-09-28 14:23:46
+2023-09-28 14:23:46,863 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id0_id9_0009.mp4: 
+2023-09-28 14:23:46,873 - INFO - Current time: 2023-09-28 14:23:46
+2023-09-28 14:23:49,714 - WARNING - No faces in frame 6 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id10_id13_0001.mp4
+2023-09-28 14:23:50,938 - WARNING - No faces in frame 13 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id10_id13_0001.mp4
+2023-09-28 14:23:52,140 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id10_id13_0001.mp4: 
+2023-09-28 14:23:52,154 - INFO - Current time: 2023-09-28 14:23:52
+2023-09-28 14:23:58,568 - INFO - Current time: 2023-09-28 14:23:58
+2023-09-28 14:23:59,517 - INFO - Current time: 2023-09-28 14:23:59
+2023-09-28 14:23:59,641 - INFO - Current time: 2023-09-28 14:23:59
+2023-09-28 14:23:59,801 - INFO - Current time: 2023-09-28 14:23:59
+2023-09-28 14:24:00,020 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,151 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,229 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,368 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,399 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,431 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,433 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,466 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,484 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,487 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,545 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,575 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,589 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,708 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,771 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,794 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,841 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:00,975 - INFO - Current time: 2023-09-28 14:24:00
+2023-09-28 14:24:01,074 - INFO - Current time: 2023-09-28 14:24:01
+2023-09-28 14:24:01,091 - INFO - Current time: 2023-09-28 14:24:01
+2023-09-28 14:24:01,109 - INFO - Current time: 2023-09-28 14:24:01
+2023-09-28 14:24:01,177 - INFO - Current time: 2023-09-28 14:24:01
+2023-09-28 14:24:01,666 - INFO - Current time: 2023-09-28 14:24:01
+2023-09-28 14:24:01,931 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id0_id4_0004.mp4: 
+2023-09-28 14:24:01,952 - INFO - Current time: 2023-09-28 14:24:01
+2023-09-28 14:24:02,274 - WARNING - No faces in frame 0 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id11_id7_0004.mp4
+2023-09-28 14:24:02,593 - INFO - Current time: 2023-09-28 14:24:02
+2023-09-28 14:24:03,470 - INFO - Current time: 2023-09-28 14:24:03
+2023-09-28 14:24:03,575 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id10_id7_0001.mp4: 
+2023-09-28 14:24:03,602 - INFO - Current time: 2023-09-28 14:24:03
+2023-09-28 14:24:05,157 - INFO - Current time: 2023-09-28 14:24:05
+2023-09-28 14:24:05,256 - INFO - Current time: 2023-09-28 14:24:05
+2023-09-28 14:24:05,855 - INFO - Current time: 2023-09-28 14:24:05
+2023-09-28 14:24:05,895 - INFO - Current time: 2023-09-28 14:24:05
+2023-09-28 14:24:06,029 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,036 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,037 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,037 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,304 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,334 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,547 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,858 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,906 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,906 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:06,929 - INFO - Current time: 2023-09-28 14:24:06
+2023-09-28 14:24:07,195 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,272 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,373 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,421 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,608 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,645 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,793 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,815 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,816 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,826 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,861 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,865 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,897 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:07,952 - INFO - Current time: 2023-09-28 14:24:07
+2023-09-28 14:24:08,048 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,065 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,107 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,244 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,302 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,310 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,616 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,723 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,735 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:08,945 - INFO - Current time: 2023-09-28 14:24:08
+2023-09-28 14:24:09,074 - INFO - Current time: 2023-09-28 14:24:09
+2023-09-28 14:24:09,087 - INFO - Current time: 2023-09-28 14:24:09
+2023-09-28 14:24:09,273 - INFO - Current time: 2023-09-28 14:24:09
+2023-09-28 14:24:09,381 - INFO - Current time: 2023-09-28 14:24:09
+2023-09-28 14:24:09,403 - INFO - Current time: 2023-09-28 14:24:09
+2023-09-28 14:24:09,593 - INFO - Current time: 2023-09-28 14:24:09
+2023-09-28 14:24:10,358 - INFO - Current time: 2023-09-28 14:24:10
+2023-09-28 14:24:12,458 - INFO - Current time: 2023-09-28 14:24:12
+2023-09-28 14:24:14,193 - INFO - Current time: 2023-09-28 14:24:14
+2023-09-28 14:24:14,909 - INFO - Current time: 2023-09-28 14:24:14
+2023-09-28 14:24:15,128 - INFO - Current time: 2023-09-28 14:24:15
+2023-09-28 14:24:15,414 - INFO - Current time: 2023-09-28 14:24:15
+2023-09-28 14:24:15,614 - INFO - Current time: 2023-09-28 14:24:15
+2023-09-28 14:24:15,776 - INFO - Current time: 2023-09-28 14:24:15
+2023-09-28 14:24:17,557 - INFO - Current time: 2023-09-28 14:24:17
+2023-09-28 14:24:20,134 - INFO - Current time: 2023-09-28 14:24:20
+2023-09-28 14:24:21,246 - INFO - Current time: 2023-09-28 14:24:21
+2023-09-28 14:24:21,549 - INFO - Current time: 2023-09-28 14:24:21
+2023-09-28 14:24:21,703 - INFO - Current time: 2023-09-28 14:24:21
+2023-09-28 14:24:21,880 - INFO - Current time: 2023-09-28 14:24:21
+2023-09-28 14:24:22,101 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,114 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,133 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,327 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,459 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,573 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,597 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,619 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,754 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,843 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,865 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:22,868 - INFO - Current time: 2023-09-28 14:24:22
+2023-09-28 14:24:23,256 - INFO - Current time: 2023-09-28 14:24:23
+2023-09-28 14:24:23,391 - INFO - Current time: 2023-09-28 14:24:23
+2023-09-28 14:24:23,488 - INFO - Current time: 2023-09-28 14:24:23
+2023-09-28 14:24:23,633 - INFO - Current time: 2023-09-28 14:24:23
+2023-09-28 14:24:24,371 - INFO - Current time: 2023-09-28 14:24:24
+2023-09-28 14:24:25,310 - INFO - Current time: 2023-09-28 14:24:25
+2023-09-28 14:24:26,674 - INFO - Current time: 2023-09-28 14:24:26
+2023-09-28 14:24:27,668 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id16_id17_0010.mp4: 
+2023-09-28 14:24:27,677 - INFO - Current time: 2023-09-28 14:24:27
+2023-09-28 14:24:28,724 - INFO - Current time: 2023-09-28 14:24:28
+2023-09-28 14:24:28,793 - INFO - Current time: 2023-09-28 14:24:28
+2023-09-28 14:24:29,097 - INFO - Current time: 2023-09-28 14:24:29
+2023-09-28 14:24:29,117 - INFO - Current time: 2023-09-28 14:24:29
+2023-09-28 14:24:29,916 - INFO - Current time: 2023-09-28 14:24:29
+2023-09-28 14:24:30,148 - INFO - Current time: 2023-09-28 14:24:30
+2023-09-28 14:24:30,216 - INFO - Current time: 2023-09-28 14:24:30
+2023-09-28 14:24:30,422 - INFO - Current time: 2023-09-28 14:24:30
+2023-09-28 14:24:30,430 - INFO - Current time: 2023-09-28 14:24:30
+2023-09-28 14:24:31,940 - WARNING - No faces in frame 135 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id16_id1_0010.mp4
+2023-09-28 14:24:33,008 - INFO - Current time: 2023-09-28 14:24:33
+2023-09-28 14:24:33,390 - INFO - Current time: 2023-09-28 14:24:33
+2023-09-28 14:24:33,759 - INFO - Current time: 2023-09-28 14:24:33
+2023-09-28 14:24:33,848 - INFO - Current time: 2023-09-28 14:24:33
+2023-09-28 14:24:34,225 - INFO - Current time: 2023-09-28 14:24:34
+2023-09-28 14:24:34,486 - INFO - Current time: 2023-09-28 14:24:34
+2023-09-28 14:24:34,697 - INFO - Current time: 2023-09-28 14:24:34
+2023-09-28 14:24:35,050 - INFO - Current time: 2023-09-28 14:24:35
+2023-09-28 14:24:35,139 - INFO - Current time: 2023-09-28 14:24:35
+2023-09-28 14:24:35,154 - WARNING - No faces in frame 135 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id16_id2_0010.mp4
+2023-09-28 14:24:35,262 - INFO - Current time: 2023-09-28 14:24:35
+2023-09-28 14:24:35,318 - INFO - Current time: 2023-09-28 14:24:35
+2023-09-28 14:24:35,719 - INFO - Current time: 2023-09-28 14:24:35
+2023-09-28 14:24:35,865 - INFO - Current time: 2023-09-28 14:24:35
+2023-09-28 14:24:36,034 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,076 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,154 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,462 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,743 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,837 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,878 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,938 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,960 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,976 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:36,985 - INFO - Current time: 2023-09-28 14:24:36
+2023-09-28 14:24:37,014 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,016 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,073 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,123 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,140 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id16_id2_0010.mp4: 
+2023-09-28 14:24:37,153 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,229 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,538 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,554 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,580 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,586 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,750 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,896 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:37,987 - INFO - Current time: 2023-09-28 14:24:37
+2023-09-28 14:24:38,029 - INFO - Current time: 2023-09-28 14:24:38
+2023-09-28 14:24:38,074 - INFO - Current time: 2023-09-28 14:24:38
+2023-09-28 14:24:38,148 - INFO - Current time: 2023-09-28 14:24:38
+2023-09-28 14:24:38,159 - INFO - Current time: 2023-09-28 14:24:38
+2023-09-28 14:24:38,400 - INFO - Current time: 2023-09-28 14:24:38
+2023-09-28 14:24:38,707 - INFO - Current time: 2023-09-28 14:24:38
+2023-09-28 14:24:38,936 - INFO - Current time: 2023-09-28 14:24:38
+2023-09-28 14:24:39,227 - INFO - Current time: 2023-09-28 14:24:39
+2023-09-28 14:24:39,260 - INFO - Current time: 2023-09-28 14:24:39
+2023-09-28 14:24:39,726 - INFO - Current time: 2023-09-28 14:24:39
+2023-09-28 14:24:40,654 - INFO - Current time: 2023-09-28 14:24:40
+2023-09-28 14:24:42,224 - INFO - Current time: 2023-09-28 14:24:42
+2023-09-28 14:24:43,036 - INFO - Current time: 2023-09-28 14:24:43
+2023-09-28 14:24:43,173 - INFO - Current time: 2023-09-28 14:24:43
+2023-09-28 14:24:43,607 - INFO - Current time: 2023-09-28 14:24:43
+2023-09-28 14:24:43,739 - INFO - Current time: 2023-09-28 14:24:43
+2023-09-28 14:24:43,922 - INFO - Current time: 2023-09-28 14:24:43
+2023-09-28 14:24:44,005 - INFO - Current time: 2023-09-28 14:24:44
+2023-09-28 14:24:44,024 - INFO - Current time: 2023-09-28 14:24:44
+2023-09-28 14:24:44,115 - INFO - Current time: 2023-09-28 14:24:44
+2023-09-28 14:24:44,248 - INFO - Current time: 2023-09-28 14:24:44
+2023-09-28 14:24:44,360 - INFO - Current time: 2023-09-28 14:24:44
+2023-09-28 14:24:44,575 - INFO - Current time: 2023-09-28 14:24:44
+2023-09-28 14:24:44,868 - INFO - Current time: 2023-09-28 14:24:44
+2023-09-28 14:24:45,021 - INFO - Current time: 2023-09-28 14:24:45
+2023-09-28 14:24:45,049 - INFO - Current time: 2023-09-28 14:24:45
+2023-09-28 14:24:45,178 - INFO - Current time: 2023-09-28 14:24:45
+2023-09-28 14:24:45,566 - INFO - Current time: 2023-09-28 14:24:45
+2023-09-28 14:24:45,684 - INFO - Current time: 2023-09-28 14:24:45
+2023-09-28 14:24:45,803 - INFO - Current time: 2023-09-28 14:24:45
+2023-09-28 14:24:45,960 - INFO - Current time: 2023-09-28 14:24:45
+2023-09-28 14:24:46,197 - INFO - Current time: 2023-09-28 14:24:46
+2023-09-28 14:24:48,607 - INFO - Current time: 2023-09-28 14:24:48
+2023-09-28 14:24:48,617 - INFO - Current time: 2023-09-28 14:24:48
+2023-09-28 14:24:49,614 - INFO - Current time: 2023-09-28 14:24:49
+2023-09-28 14:24:49,735 - INFO - Current time: 2023-09-28 14:24:49
+2023-09-28 14:24:50,612 - INFO - Current time: 2023-09-28 14:24:50
+2023-09-28 14:24:51,227 - INFO - Current time: 2023-09-28 14:24:51
+2023-09-28 14:24:51,558 - INFO - Current time: 2023-09-28 14:24:51
+2023-09-28 14:24:52,029 - INFO - Current time: 2023-09-28 14:24:52
+2023-09-28 14:24:52,598 - INFO - Current time: 2023-09-28 14:24:52
+2023-09-28 14:24:53,608 - INFO - Current time: 2023-09-28 14:24:53
+2023-09-28 14:24:54,197 - INFO - Current time: 2023-09-28 14:24:54
+2023-09-28 14:24:54,303 - INFO - Current time: 2023-09-28 14:24:54
+2023-09-28 14:24:55,900 - INFO - Current time: 2023-09-28 14:24:55
+2023-09-28 14:24:56,082 - INFO - Current time: 2023-09-28 14:24:56
+2023-09-28 14:24:56,372 - INFO - Current time: 2023-09-28 14:24:56
+2023-09-28 14:24:56,790 - INFO - Current time: 2023-09-28 14:24:56
+2023-09-28 14:24:56,793 - INFO - Current time: 2023-09-28 14:24:56
+2023-09-28 14:24:57,396 - INFO - Current time: 2023-09-28 14:24:57
+2023-09-28 14:24:57,500 - INFO - Current time: 2023-09-28 14:24:57
+2023-09-28 14:24:57,539 - INFO - Current time: 2023-09-28 14:24:57
+2023-09-28 14:24:58,147 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,205 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,281 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,285 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,359 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,658 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,668 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,735 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,736 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,744 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,758 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:58,862 - INFO - Current time: 2023-09-28 14:24:58
+2023-09-28 14:24:59,022 - INFO - Current time: 2023-09-28 14:24:59
+2023-09-28 14:24:59,252 - INFO - Current time: 2023-09-28 14:24:59
+2023-09-28 14:24:59,533 - INFO - Current time: 2023-09-28 14:24:59
+2023-09-28 14:24:59,729 - INFO - Current time: 2023-09-28 14:24:59
+2023-09-28 14:24:59,782 - INFO - Current time: 2023-09-28 14:24:59
+2023-09-28 14:25:00,145 - INFO - Current time: 2023-09-28 14:25:00
+2023-09-28 14:25:00,824 - INFO - Current time: 2023-09-28 14:25:00
+2023-09-28 14:25:00,917 - INFO - Current time: 2023-09-28 14:25:00
+2023-09-28 14:25:01,176 - INFO - Current time: 2023-09-28 14:25:01
+2023-09-28 14:25:01,575 - INFO - Current time: 2023-09-28 14:25:01
+2023-09-28 14:25:01,685 - INFO - Current time: 2023-09-28 14:25:01
+2023-09-28 14:25:02,009 - INFO - Current time: 2023-09-28 14:25:02
+2023-09-28 14:25:02,649 - INFO - Current time: 2023-09-28 14:25:02
+2023-09-28 14:25:02,905 - INFO - Current time: 2023-09-28 14:25:02
+2023-09-28 14:25:03,473 - INFO - Current time: 2023-09-28 14:25:03
+2023-09-28 14:25:03,492 - INFO - Current time: 2023-09-28 14:25:03
+2023-09-28 14:25:03,715 - INFO - Current time: 2023-09-28 14:25:03
+2023-09-28 14:25:03,850 - INFO - Current time: 2023-09-28 14:25:03
+2023-09-28 14:25:04,061 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,107 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,117 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,200 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,327 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,404 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,535 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,698 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,818 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:04,865 - INFO - Current time: 2023-09-28 14:25:04
+2023-09-28 14:25:05,060 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:05,067 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:05,312 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:05,350 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:05,418 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:05,539 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:05,555 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:05,705 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:05,984 - INFO - Current time: 2023-09-28 14:25:05
+2023-09-28 14:25:06,084 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:06,133 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:06,384 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:06,447 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:06,488 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:06,575 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:06,581 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:06,734 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:06,798 - INFO - Current time: 2023-09-28 14:25:06
+2023-09-28 14:25:07,005 - INFO - Current time: 2023-09-28 14:25:07
+2023-09-28 14:25:07,044 - INFO - Current time: 2023-09-28 14:25:07
+2023-09-28 14:25:07,688 - INFO - Current time: 2023-09-28 14:25:07
+2023-09-28 14:25:08,168 - INFO - Current time: 2023-09-28 14:25:08
+2023-09-28 14:25:08,784 - INFO - Current time: 2023-09-28 14:25:08
+2023-09-28 14:25:08,924 - INFO - Current time: 2023-09-28 14:25:08
+2023-09-28 14:25:09,472 - INFO - Current time: 2023-09-28 14:25:09
+2023-09-28 14:25:10,757 - INFO - Current time: 2023-09-28 14:25:10
+2023-09-28 14:25:10,817 - INFO - Current time: 2023-09-28 14:25:10
+2023-09-28 14:25:11,363 - INFO - Current time: 2023-09-28 14:25:11
+2023-09-28 14:25:12,498 - INFO - Current time: 2023-09-28 14:25:12
+2023-09-28 14:25:12,641 - INFO - Current time: 2023-09-28 14:25:12
+2023-09-28 14:25:13,128 - INFO - Current time: 2023-09-28 14:25:13
+2023-09-28 14:25:13,825 - INFO - Current time: 2023-09-28 14:25:13
+2023-09-28 14:25:13,890 - INFO - Current time: 2023-09-28 14:25:13
+2023-09-28 14:25:14,161 - INFO - Current time: 2023-09-28 14:25:14
+2023-09-28 14:25:14,717 - INFO - Current time: 2023-09-28 14:25:14
+2023-09-28 14:25:15,118 - INFO - Current time: 2023-09-28 14:25:15
+2023-09-28 14:25:15,528 - INFO - Current time: 2023-09-28 14:25:15
+2023-09-28 14:25:15,780 - INFO - Current time: 2023-09-28 14:25:15
+2023-09-28 14:25:15,975 - INFO - Current time: 2023-09-28 14:25:15
+2023-09-28 14:25:16,243 - INFO - Current time: 2023-09-28 14:25:16
+2023-09-28 14:25:16,258 - INFO - Current time: 2023-09-28 14:25:16
+2023-09-28 14:25:16,264 - INFO - Current time: 2023-09-28 14:25:16
+2023-09-28 14:25:16,358 - INFO - Current time: 2023-09-28 14:25:16
+2023-09-28 14:25:16,724 - INFO - Current time: 2023-09-28 14:25:16
+2023-09-28 14:25:16,933 - INFO - Current time: 2023-09-28 14:25:16
+2023-09-28 14:25:17,046 - INFO - Current time: 2023-09-28 14:25:17
+2023-09-28 14:25:17,055 - INFO - Current time: 2023-09-28 14:25:17
+2023-09-28 14:25:17,184 - INFO - Current time: 2023-09-28 14:25:17
+2023-09-28 14:25:17,211 - INFO - Current time: 2023-09-28 14:25:17
+2023-09-28 14:25:17,926 - INFO - Current time: 2023-09-28 14:25:17
+2023-09-28 14:25:17,944 - INFO - Current time: 2023-09-28 14:25:17
+2023-09-28 14:25:17,991 - INFO - Current time: 2023-09-28 14:25:17
+2023-09-28 14:25:18,262 - INFO - Current time: 2023-09-28 14:25:18
+2023-09-28 14:25:18,728 - INFO - Current time: 2023-09-28 14:25:18
+2023-09-28 14:25:19,085 - INFO - Current time: 2023-09-28 14:25:19
+2023-09-28 14:25:19,306 - INFO - Current time: 2023-09-28 14:25:19
+2023-09-28 14:25:19,644 - INFO - Current time: 2023-09-28 14:25:19
+2023-09-28 14:25:19,677 - INFO - Current time: 2023-09-28 14:25:19
+2023-09-28 14:25:19,693 - INFO - Current time: 2023-09-28 14:25:19
+2023-09-28 14:25:20,201 - INFO - Current time: 2023-09-28 14:25:20
+2023-09-28 14:25:20,321 - INFO - Current time: 2023-09-28 14:25:20
+2023-09-28 14:25:21,207 - INFO - Current time: 2023-09-28 14:25:21
+2023-09-28 14:25:21,325 - INFO - Current time: 2023-09-28 14:25:21
+2023-09-28 14:25:21,342 - INFO - Current time: 2023-09-28 14:25:21
+2023-09-28 14:25:21,542 - INFO - Current time: 2023-09-28 14:25:21
+2023-09-28 14:25:21,578 - INFO - Current time: 2023-09-28 14:25:21
+2023-09-28 14:25:21,756 - INFO - Current time: 2023-09-28 14:25:21
+2023-09-28 14:25:21,781 - INFO - Current time: 2023-09-28 14:25:21
+2023-09-28 14:25:22,298 - INFO - Current time: 2023-09-28 14:25:22
+2023-09-28 14:25:22,395 - INFO - Current time: 2023-09-28 14:25:22
+2023-09-28 14:25:22,416 - INFO - Current time: 2023-09-28 14:25:22
+2023-09-28 14:25:22,455 - INFO - Current time: 2023-09-28 14:25:22
+2023-09-28 14:25:22,487 - INFO - Current time: 2023-09-28 14:25:22
+2023-09-28 14:25:22,498 - INFO - Current time: 2023-09-28 14:25:22
+2023-09-28 14:25:22,539 - INFO - Current time: 2023-09-28 14:25:22
+2023-09-28 14:25:22,637 - INFO - Current time: 2023-09-28 14:25:22
+2023-09-28 14:25:23,055 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,081 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,201 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,352 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,373 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,381 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,490 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,585 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,768 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,790 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:23,954 - INFO - Current time: 2023-09-28 14:25:23
+2023-09-28 14:25:24,253 - INFO - Current time: 2023-09-28 14:25:24
+2023-09-28 14:25:24,295 - INFO - Current time: 2023-09-28 14:25:24
+2023-09-28 14:25:24,341 - INFO - Current time: 2023-09-28 14:25:24
+2023-09-28 14:25:24,343 - INFO - Current time: 2023-09-28 14:25:24
+2023-09-28 14:25:24,380 - INFO - Current time: 2023-09-28 14:25:24
+2023-09-28 14:25:24,417 - INFO - Current time: 2023-09-28 14:25:24
+2023-09-28 14:25:24,651 - INFO - Current time: 2023-09-28 14:25:24
+2023-09-28 14:25:24,872 - INFO - Current time: 2023-09-28 14:25:24
+2023-09-28 14:25:25,013 - INFO - Current time: 2023-09-28 14:25:25
+2023-09-28 14:25:25,058 - INFO - Current time: 2023-09-28 14:25:25
+2023-09-28 14:25:25,400 - INFO - Current time: 2023-09-28 14:25:25
+2023-09-28 14:25:25,747 - INFO - Current time: 2023-09-28 14:25:25
+2023-09-28 14:25:25,756 - INFO - Current time: 2023-09-28 14:25:25
+2023-09-28 14:25:26,022 - INFO - Current time: 2023-09-28 14:25:26
+2023-09-28 14:25:26,138 - INFO - Current time: 2023-09-28 14:25:26
+2023-09-28 14:25:26,306 - INFO - Current time: 2023-09-28 14:25:26
+2023-09-28 14:25:26,695 - INFO - Current time: 2023-09-28 14:25:26
+2023-09-28 14:25:27,351 - INFO - Current time: 2023-09-28 14:25:27
+2023-09-28 14:25:27,822 - INFO - Current time: 2023-09-28 14:25:27
+2023-09-28 14:25:28,157 - INFO - Current time: 2023-09-28 14:25:28
+2023-09-28 14:25:28,296 - INFO - Current time: 2023-09-28 14:25:28
+2023-09-28 14:25:28,544 - INFO - Current time: 2023-09-28 14:25:28
+2023-09-28 14:25:28,828 - INFO - Current time: 2023-09-28 14:25:28
+2023-09-28 14:25:29,191 - INFO - Current time: 2023-09-28 14:25:29
+2023-09-28 14:25:29,828 - INFO - Current time: 2023-09-28 14:25:29
+2023-09-28 14:25:30,507 - INFO - Current time: 2023-09-28 14:25:30
+2023-09-28 14:25:31,285 - INFO - Current time: 2023-09-28 14:25:31
+2023-09-28 14:25:31,386 - INFO - Current time: 2023-09-28 14:25:31
+2023-09-28 14:25:31,490 - INFO - Current time: 2023-09-28 14:25:31
+2023-09-28 14:25:31,966 - INFO - Current time: 2023-09-28 14:25:31
+2023-09-28 14:25:32,649 - INFO - Current time: 2023-09-28 14:25:32
+2023-09-28 14:25:32,651 - INFO - Current time: 2023-09-28 14:25:32
+2023-09-28 14:25:32,715 - INFO - Current time: 2023-09-28 14:25:32
+2023-09-28 14:25:33,167 - INFO - Current time: 2023-09-28 14:25:33
+2023-09-28 14:25:33,511 - INFO - Current time: 2023-09-28 14:25:33
+2023-09-28 14:25:33,942 - INFO - Current time: 2023-09-28 14:25:33
+2023-09-28 14:25:34,165 - INFO - Current time: 2023-09-28 14:25:34
+2023-09-28 14:25:34,766 - INFO - Current time: 2023-09-28 14:25:34
+2023-09-28 14:25:36,271 - INFO - Current time: 2023-09-28 14:25:36
+2023-09-28 14:25:36,398 - INFO - Current time: 2023-09-28 14:25:36
+2023-09-28 14:25:36,426 - INFO - Current time: 2023-09-28 14:25:36
+2023-09-28 14:25:36,542 - INFO - Current time: 2023-09-28 14:25:36
+2023-09-28 14:25:36,588 - INFO - Current time: 2023-09-28 14:25:36
+2023-09-28 14:25:36,614 - INFO - Current time: 2023-09-28 14:25:36
+2023-09-28 14:25:36,831 - INFO - Current time: 2023-09-28 14:25:36
+2023-09-28 14:25:37,494 - INFO - Current time: 2023-09-28 14:25:37
+2023-09-28 14:25:37,742 - INFO - Current time: 2023-09-28 14:25:37
+2023-09-28 14:25:37,917 - INFO - Current time: 2023-09-28 14:25:37
+2023-09-28 14:25:38,074 - INFO - Current time: 2023-09-28 14:25:38
+2023-09-28 14:25:38,084 - INFO - Current time: 2023-09-28 14:25:38
+2023-09-28 14:25:38,105 - INFO - Current time: 2023-09-28 14:25:38
+2023-09-28 14:25:38,207 - INFO - Current time: 2023-09-28 14:25:38
+2023-09-28 14:25:38,717 - INFO - Current time: 2023-09-28 14:25:38
+2023-09-28 14:25:39,151 - INFO - Current time: 2023-09-28 14:25:39
+2023-09-28 14:25:39,310 - INFO - Current time: 2023-09-28 14:25:39
+2023-09-28 14:25:40,231 - INFO - Current time: 2023-09-28 14:25:40
+2023-09-28 14:25:40,765 - INFO - Current time: 2023-09-28 14:25:40
+2023-09-28 14:25:40,932 - INFO - Current time: 2023-09-28 14:25:40
+2023-09-28 14:25:40,951 - INFO - Current time: 2023-09-28 14:25:40
+2023-09-28 14:25:40,965 - INFO - Current time: 2023-09-28 14:25:40
+2023-09-28 14:25:42,624 - INFO - Current time: 2023-09-28 14:25:42
+2023-09-28 14:25:43,141 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,231 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,260 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,319 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,357 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,406 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,561 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,806 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,829 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:43,956 - INFO - Current time: 2023-09-28 14:25:43
+2023-09-28 14:25:44,030 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:44,198 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:44,202 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:44,260 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:44,299 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:44,437 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:44,538 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:44,715 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:44,906 - INFO - Current time: 2023-09-28 14:25:44
+2023-09-28 14:25:45,014 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,080 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,100 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,304 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,346 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,645 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,692 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,746 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,794 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,891 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:45,938 - INFO - Current time: 2023-09-28 14:25:45
+2023-09-28 14:25:46,412 - INFO - Current time: 2023-09-28 14:25:46
+2023-09-28 14:25:46,616 - INFO - Current time: 2023-09-28 14:25:46
+2023-09-28 14:25:46,809 - INFO - Current time: 2023-09-28 14:25:46
+2023-09-28 14:25:46,929 - INFO - Current time: 2023-09-28 14:25:46
+2023-09-28 14:25:47,208 - INFO - Current time: 2023-09-28 14:25:47
+2023-09-28 14:25:47,381 - INFO - Current time: 2023-09-28 14:25:47
+2023-09-28 14:25:47,642 - INFO - Current time: 2023-09-28 14:25:47
+2023-09-28 14:25:47,662 - INFO - Current time: 2023-09-28 14:25:47
+2023-09-28 14:25:48,121 - INFO - Current time: 2023-09-28 14:25:48
+2023-09-28 14:25:48,505 - INFO - Current time: 2023-09-28 14:25:48
+2023-09-28 14:25:48,543 - INFO - Current time: 2023-09-28 14:25:48
+2023-09-28 14:25:48,756 - INFO - Current time: 2023-09-28 14:25:48
+2023-09-28 14:25:48,874 - INFO - Current time: 2023-09-28 14:25:48
+2023-09-28 14:25:49,333 - INFO - Current time: 2023-09-28 14:25:49
+2023-09-28 14:25:49,525 - INFO - Current time: 2023-09-28 14:25:49
+2023-09-28 14:25:49,680 - INFO - Current time: 2023-09-28 14:25:49
+2023-09-28 14:25:50,617 - INFO - Current time: 2023-09-28 14:25:50
+2023-09-28 14:25:50,701 - INFO - Current time: 2023-09-28 14:25:50
+2023-09-28 14:25:50,817 - INFO - Current time: 2023-09-28 14:25:50
+2023-09-28 14:25:50,833 - INFO - Current time: 2023-09-28 14:25:50
+2023-09-28 14:25:50,846 - INFO - Current time: 2023-09-28 14:25:50
+2023-09-28 14:25:51,416 - INFO - Current time: 2023-09-28 14:25:51
+2023-09-28 14:25:51,432 - INFO - Current time: 2023-09-28 14:25:51
+2023-09-28 14:25:51,514 - INFO - Current time: 2023-09-28 14:25:51
+2023-09-28 14:25:51,909 - INFO - Current time: 2023-09-28 14:25:51
+2023-09-28 14:25:52,314 - INFO - Current time: 2023-09-28 14:25:52
+2023-09-28 14:25:52,314 - INFO - Current time: 2023-09-28 14:25:52
+2023-09-28 14:25:52,756 - INFO - Current time: 2023-09-28 14:25:52
+2023-09-28 14:25:52,870 - INFO - Current time: 2023-09-28 14:25:52
+2023-09-28 14:25:53,019 - INFO - Current time: 2023-09-28 14:25:53
+2023-09-28 14:25:53,134 - INFO - Current time: 2023-09-28 14:25:53
+2023-09-28 14:25:53,284 - INFO - Current time: 2023-09-28 14:25:53
+2023-09-28 14:25:53,356 - INFO - Current time: 2023-09-28 14:25:53
+2023-09-28 14:25:54,167 - INFO - Current time: 2023-09-28 14:25:54
+2023-09-28 14:25:54,804 - INFO - Current time: 2023-09-28 14:25:54
+2023-09-28 14:25:55,293 - INFO - Current time: 2023-09-28 14:25:55
+2023-09-28 14:25:55,681 - INFO - Current time: 2023-09-28 14:25:55
+2023-09-28 14:25:55,771 - INFO - Current time: 2023-09-28 14:25:55
+2023-09-28 14:25:55,902 - INFO - Current time: 2023-09-28 14:25:55
+2023-09-28 14:25:56,159 - INFO - Current time: 2023-09-28 14:25:56
+2023-09-28 14:25:57,602 - INFO - Current time: 2023-09-28 14:25:57
+2023-09-28 14:25:58,612 - INFO - Current time: 2023-09-28 14:25:58
+2023-09-28 14:25:59,332 - INFO - Current time: 2023-09-28 14:25:59
+2023-09-28 14:25:59,674 - INFO - Current time: 2023-09-28 14:25:59
+2023-09-28 14:26:00,040 - INFO - Current time: 2023-09-28 14:26:00
+2023-09-28 14:26:00,277 - INFO - Current time: 2023-09-28 14:26:00
+2023-09-28 14:26:00,582 - INFO - Current time: 2023-09-28 14:26:00
+2023-09-28 14:26:00,888 - INFO - Current time: 2023-09-28 14:26:00
+2023-09-28 14:26:01,214 - INFO - Current time: 2023-09-28 14:26:01
+2023-09-28 14:26:01,298 - INFO - Current time: 2023-09-28 14:26:01
+2023-09-28 14:26:01,359 - INFO - Current time: 2023-09-28 14:26:01
+2023-09-28 14:26:01,370 - INFO - Current time: 2023-09-28 14:26:01
+2023-09-28 14:26:01,403 - INFO - Current time: 2023-09-28 14:26:01
+2023-09-28 14:26:01,750 - INFO - Current time: 2023-09-28 14:26:01
+2023-09-28 14:26:02,046 - INFO - Current time: 2023-09-28 14:26:02
+2023-09-28 14:26:02,200 - INFO - Current time: 2023-09-28 14:26:02
+2023-09-28 14:26:02,515 - INFO - Current time: 2023-09-28 14:26:02
+2023-09-28 14:26:02,564 - INFO - Current time: 2023-09-28 14:26:02
+2023-09-28 14:26:02,967 - INFO - Current time: 2023-09-28 14:26:02
+2023-09-28 14:26:03,190 - INFO - Current time: 2023-09-28 14:26:03
+2023-09-28 14:26:03,364 - INFO - Current time: 2023-09-28 14:26:03
+2023-09-28 14:26:03,409 - INFO - Current time: 2023-09-28 14:26:03
+2023-09-28 14:26:03,521 - INFO - Current time: 2023-09-28 14:26:03
+2023-09-28 14:26:03,553 - INFO - Current time: 2023-09-28 14:26:03
+2023-09-28 14:26:03,609 - INFO - Current time: 2023-09-28 14:26:03
+2023-09-28 14:26:03,613 - INFO - Current time: 2023-09-28 14:26:03
+2023-09-28 14:26:04,125 - INFO - Current time: 2023-09-28 14:26:04
+2023-09-28 14:26:04,386 - INFO - Current time: 2023-09-28 14:26:04
+2023-09-28 14:26:04,412 - INFO - Current time: 2023-09-28 14:26:04
+2023-09-28 14:26:04,626 - INFO - Current time: 2023-09-28 14:26:04
+2023-09-28 14:26:04,680 - INFO - Current time: 2023-09-28 14:26:04
+2023-09-28 14:26:04,721 - INFO - Current time: 2023-09-28 14:26:04
+2023-09-28 14:26:04,965 - INFO - Current time: 2023-09-28 14:26:04
+2023-09-28 14:26:04,970 - INFO - Current time: 2023-09-28 14:26:04
+2023-09-28 14:26:05,006 - INFO - Current time: 2023-09-28 14:26:05
+2023-09-28 14:26:05,058 - INFO - Current time: 2023-09-28 14:26:05
+2023-09-28 14:26:05,401 - INFO - Current time: 2023-09-28 14:26:05
+2023-09-28 14:26:05,590 - INFO - Current time: 2023-09-28 14:26:05
+2023-09-28 14:26:05,810 - INFO - Current time: 2023-09-28 14:26:05
+2023-09-28 14:26:05,863 - INFO - Current time: 2023-09-28 14:26:05
+2023-09-28 14:26:05,923 - INFO - Current time: 2023-09-28 14:26:05
+2023-09-28 14:26:06,054 - INFO - Current time: 2023-09-28 14:26:06
+2023-09-28 14:26:06,873 - INFO - Current time: 2023-09-28 14:26:06
+2023-09-28 14:26:07,134 - INFO - Current time: 2023-09-28 14:26:07
+2023-09-28 14:26:07,935 - INFO - Current time: 2023-09-28 14:26:07
+2023-09-28 14:26:08,100 - INFO - Current time: 2023-09-28 14:26:08
+2023-09-28 14:26:09,962 - INFO - Current time: 2023-09-28 14:26:09
+2023-09-28 14:26:10,480 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id4_id0_0006.mp4: 
+2023-09-28 14:26:10,488 - INFO - Current time: 2023-09-28 14:26:10
+2023-09-28 14:26:11,488 - INFO - Current time: 2023-09-28 14:26:11
+2023-09-28 14:26:11,742 - INFO - Current time: 2023-09-28 14:26:11
+2023-09-28 14:26:12,695 - INFO - Current time: 2023-09-28 14:26:12
+2023-09-28 14:26:13,119 - INFO - Current time: 2023-09-28 14:26:13
+2023-09-28 14:26:13,327 - INFO - Current time: 2023-09-28 14:26:13
+2023-09-28 14:26:13,952 - INFO - Current time: 2023-09-28 14:26:13
+2023-09-28 14:26:13,962 - INFO - Current time: 2023-09-28 14:26:13
+2023-09-28 14:26:14,158 - WARNING - No faces in frame 258 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id4_id2_0007.mp4
+2023-09-28 14:26:14,227 - INFO - Current time: 2023-09-28 14:26:14
+2023-09-28 14:26:14,308 - INFO - Current time: 2023-09-28 14:26:14
+2023-09-28 14:26:14,474 - INFO - Current time: 2023-09-28 14:26:14
+2023-09-28 14:26:14,843 - INFO - Current time: 2023-09-28 14:26:14
+2023-09-28 14:26:15,170 - INFO - Current time: 2023-09-28 14:26:15
+2023-09-28 14:26:15,381 - INFO - Current time: 2023-09-28 14:26:15
+2023-09-28 14:26:15,386 - INFO - Current time: 2023-09-28 14:26:15
+2023-09-28 14:26:15,525 - INFO - Current time: 2023-09-28 14:26:15
+2023-09-28 14:26:16,302 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id4_id3_0006.mp4: 
+2023-09-28 14:26:16,327 - INFO - Current time: 2023-09-28 14:26:16
+2023-09-28 14:26:16,852 - INFO - Current time: 2023-09-28 14:26:16
+2023-09-28 14:26:16,977 - INFO - Current time: 2023-09-28 14:26:16
+2023-09-28 14:26:17,510 - INFO - Current time: 2023-09-28 14:26:17
+2023-09-28 14:26:17,611 - INFO - Current time: 2023-09-28 14:26:17
+2023-09-28 14:26:17,625 - INFO - Current time: 2023-09-28 14:26:17
+2023-09-28 14:26:17,785 - INFO - Current time: 2023-09-28 14:26:17
+2023-09-28 14:26:18,339 - INFO - Current time: 2023-09-28 14:26:18
+2023-09-28 14:26:18,729 - INFO - Current time: 2023-09-28 14:26:18
+2023-09-28 14:26:18,799 - INFO - Current time: 2023-09-28 14:26:18
+2023-09-28 14:26:19,476 - INFO - Current time: 2023-09-28 14:26:19
+2023-09-28 14:26:19,597 - INFO - Current time: 2023-09-28 14:26:19
+2023-09-28 14:26:20,436 - INFO - Current time: 2023-09-28 14:26:20
+2023-09-28 14:26:21,128 - INFO - Current time: 2023-09-28 14:26:21
+2023-09-28 14:26:21,621 - INFO - Current time: 2023-09-28 14:26:21
+2023-09-28 14:26:21,643 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id4_id6_0006.mp4: 
+2023-09-28 14:26:21,654 - INFO - Current time: 2023-09-28 14:26:21
+2023-09-28 14:26:21,764 - INFO - Current time: 2023-09-28 14:26:21
+2023-09-28 14:26:22,667 - INFO - Current time: 2023-09-28 14:26:22
+2023-09-28 14:26:22,832 - INFO - Current time: 2023-09-28 14:26:22
+2023-09-28 14:26:23,588 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id4_id9_0006.mp4: 
+2023-09-28 14:26:23,628 - INFO - Current time: 2023-09-28 14:26:23
+2023-09-28 14:26:23,651 - INFO - Current time: 2023-09-28 14:26:23
+2023-09-28 14:26:23,658 - INFO - Current time: 2023-09-28 14:26:23
+2023-09-28 14:26:23,953 - INFO - Current time: 2023-09-28 14:26:23
+2023-09-28 14:26:24,038 - INFO - Current time: 2023-09-28 14:26:24
+2023-09-28 14:26:24,494 - INFO - Current time: 2023-09-28 14:26:24
+2023-09-28 14:26:24,646 - INFO - Current time: 2023-09-28 14:26:24
+2023-09-28 14:26:24,869 - INFO - Current time: 2023-09-28 14:26:24
+2023-09-28 14:26:25,168 - INFO - Current time: 2023-09-28 14:26:25
+2023-09-28 14:26:26,146 - INFO - Current time: 2023-09-28 14:26:26
+2023-09-28 14:26:26,844 - INFO - Current time: 2023-09-28 14:26:26
+2023-09-28 14:26:27,144 - INFO - Current time: 2023-09-28 14:26:27
+2023-09-28 14:26:27,419 - INFO - Current time: 2023-09-28 14:26:27
+2023-09-28 14:26:28,009 - INFO - Current time: 2023-09-28 14:26:28
+2023-09-28 14:26:28,324 - INFO - Current time: 2023-09-28 14:26:28
+2023-09-28 14:26:28,886 - INFO - Current time: 2023-09-28 14:26:28
+2023-09-28 14:26:29,080 - INFO - Current time: 2023-09-28 14:26:29
+2023-09-28 14:26:29,089 - INFO - Current time: 2023-09-28 14:26:29
+2023-09-28 14:26:29,388 - INFO - Current time: 2023-09-28 14:26:29
+2023-09-28 14:26:29,508 - INFO - Current time: 2023-09-28 14:26:29
+2023-09-28 14:26:29,631 - INFO - Current time: 2023-09-28 14:26:29
+2023-09-28 14:26:29,965 - INFO - Current time: 2023-09-28 14:26:29
+2023-09-28 14:26:31,659 - INFO - Current time: 2023-09-28 14:26:31
+2023-09-28 14:26:31,788 - INFO - Current time: 2023-09-28 14:26:31
+2023-09-28 14:26:32,003 - INFO - Current time: 2023-09-28 14:26:32
+2023-09-28 14:26:32,097 - INFO - Current time: 2023-09-28 14:26:32
+2023-09-28 14:26:32,518 - INFO - Current time: 2023-09-28 14:26:32
+2023-09-28 14:26:32,619 - INFO - Current time: 2023-09-28 14:26:32
+2023-09-28 14:26:32,844 - INFO - Current time: 2023-09-28 14:26:32
+2023-09-28 14:26:32,944 - INFO - Current time: 2023-09-28 14:26:32
+2023-09-28 14:26:33,109 - INFO - Current time: 2023-09-28 14:26:33
+2023-09-28 14:26:33,233 - INFO - Current time: 2023-09-28 14:26:33
+2023-09-28 14:26:33,286 - INFO - Current time: 2023-09-28 14:26:33
+2023-09-28 14:26:33,607 - INFO - Current time: 2023-09-28 14:26:33
+2023-09-28 14:26:33,959 - INFO - Current time: 2023-09-28 14:26:33
+2023-09-28 14:26:34,095 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:34,371 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:34,472 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:34,555 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:34,677 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:34,695 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:34,829 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:34,878 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:34,913 - INFO - Current time: 2023-09-28 14:26:34
+2023-09-28 14:26:35,656 - INFO - Current time: 2023-09-28 14:26:35
+2023-09-28 14:26:35,974 - INFO - Current time: 2023-09-28 14:26:35
+2023-09-28 14:26:36,019 - INFO - Current time: 2023-09-28 14:26:36
+2023-09-28 14:26:36,025 - INFO - Current time: 2023-09-28 14:26:36
+2023-09-28 14:26:36,091 - INFO - Current time: 2023-09-28 14:26:36
+2023-09-28 14:26:36,280 - INFO - Current time: 2023-09-28 14:26:36
+2023-09-28 14:26:36,502 - INFO - Current time: 2023-09-28 14:26:36
+2023-09-28 14:26:36,621 - INFO - Current time: 2023-09-28 14:26:36
+2023-09-28 14:26:37,095 - INFO - Current time: 2023-09-28 14:26:37
+2023-09-28 14:26:37,111 - INFO - Current time: 2023-09-28 14:26:37
+2023-09-28 14:26:37,152 - INFO - Current time: 2023-09-28 14:26:37
+2023-09-28 14:26:37,528 - INFO - Current time: 2023-09-28 14:26:37
+2023-09-28 14:26:37,670 - INFO - Current time: 2023-09-28 14:26:37
+2023-09-28 14:26:38,401 - INFO - Current time: 2023-09-28 14:26:38
+2023-09-28 14:26:39,043 - INFO - Current time: 2023-09-28 14:26:39
+2023-09-28 14:26:39,519 - INFO - Current time: 2023-09-28 14:26:39
+2023-09-28 14:26:39,858 - INFO - Current time: 2023-09-28 14:26:39
+2023-09-28 14:26:40,542 - INFO - Current time: 2023-09-28 14:26:40
+2023-09-28 14:26:40,816 - INFO - Current time: 2023-09-28 14:26:40
+2023-09-28 14:26:40,927 - INFO - Current time: 2023-09-28 14:26:40
+2023-09-28 14:26:42,122 - INFO - Current time: 2023-09-28 14:26:42
+2023-09-28 14:26:43,352 - INFO - Current time: 2023-09-28 14:26:43
+2023-09-28 14:26:44,696 - INFO - Current time: 2023-09-28 14:26:44
+2023-09-28 14:26:44,848 - INFO - Current time: 2023-09-28 14:26:44
+2023-09-28 14:26:44,910 - INFO - Current time: 2023-09-28 14:26:44
+2023-09-28 14:26:45,344 - INFO - Current time: 2023-09-28 14:26:45
+2023-09-28 14:26:45,399 - INFO - Current time: 2023-09-28 14:26:45
+2023-09-28 14:26:45,432 - INFO - Current time: 2023-09-28 14:26:45
+2023-09-28 14:26:45,952 - INFO - Current time: 2023-09-28 14:26:45
+2023-09-28 14:26:45,963 - INFO - Current time: 2023-09-28 14:26:45
+2023-09-28 14:26:46,667 - INFO - Current time: 2023-09-28 14:26:46
+2023-09-28 14:26:46,807 - INFO - Current time: 2023-09-28 14:26:46
+2023-09-28 14:26:46,857 - INFO - Current time: 2023-09-28 14:26:46
+2023-09-28 14:26:46,895 - INFO - Current time: 2023-09-28 14:26:46
+2023-09-28 14:26:47,048 - INFO - Current time: 2023-09-28 14:26:47
+2023-09-28 14:26:47,100 - INFO - Current time: 2023-09-28 14:26:47
+2023-09-28 14:26:47,477 - INFO - Current time: 2023-09-28 14:26:47
+2023-09-28 14:26:47,508 - INFO - Current time: 2023-09-28 14:26:47
+2023-09-28 14:26:48,021 - WARNING - No faces in frame 221 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id7_id10_0009.mp4
+2023-09-28 14:26:48,936 - INFO - Current time: 2023-09-28 14:26:48
+2023-09-28 14:26:49,052 - INFO - Current time: 2023-09-28 14:26:49
+2023-09-28 14:26:49,647 - INFO - Current time: 2023-09-28 14:26:49
+2023-09-28 14:26:49,742 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id8_id3_0003.mp4: 
+2023-09-28 14:26:49,755 - INFO - Current time: 2023-09-28 14:26:49
+2023-09-28 14:26:49,880 - INFO - Current time: 2023-09-28 14:26:49
+2023-09-28 14:26:50,367 - WARNING - No faces in frame 38 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id8_id6_0003.mp4
+2023-09-28 14:26:51,326 - INFO - Current time: 2023-09-28 14:26:51
+2023-09-28 14:26:51,719 - INFO - Current time: 2023-09-28 14:26:51
+2023-09-28 14:26:51,946 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id8_id7_0003.mp4: 
+2023-09-28 14:26:51,967 - INFO - Current time: 2023-09-28 14:26:51
+2023-09-28 14:26:52,524 - INFO - Current time: 2023-09-28 14:26:52
+2023-09-28 14:26:52,621 - INFO - Current time: 2023-09-28 14:26:52
+2023-09-28 14:26:53,097 - INFO - Current time: 2023-09-28 14:26:53
+2023-09-28 14:26:53,917 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/Celeb-synthesis/id8_id9_0003.mp4: 
+2023-09-28 14:26:53,924 - INFO - Current time: 2023-09-28 14:26:53
+2023-09-28 14:26:54,345 - INFO - Current time: 2023-09-28 14:26:54
+2023-09-28 14:26:55,067 - INFO - Current time: 2023-09-28 14:26:55
+2023-09-28 14:26:55,328 - INFO - Current time: 2023-09-28 14:26:55
+2023-09-28 14:26:55,754 - INFO - Current time: 2023-09-28 14:26:55
+2023-09-28 14:26:56,036 - INFO - Current time: 2023-09-28 14:26:56
+2023-09-28 14:26:56,475 - INFO - Current time: 2023-09-28 14:26:56
+2023-09-28 14:26:56,483 - INFO - Current time: 2023-09-28 14:26:56
+2023-09-28 14:26:56,624 - INFO - Current time: 2023-09-28 14:26:56
+2023-09-28 14:26:56,983 - INFO - Current time: 2023-09-28 14:26:56
+2023-09-28 14:26:57,002 - INFO - Current time: 2023-09-28 14:26:57
+2023-09-28 14:26:57,062 - INFO - Current time: 2023-09-28 14:26:57
+2023-09-28 14:26:57,204 - INFO - Current time: 2023-09-28 14:26:57
+2023-09-28 14:26:57,823 - INFO - Current time: 2023-09-28 14:26:57
+2023-09-28 14:26:57,897 - INFO - Current time: 2023-09-28 14:26:57
+2023-09-28 14:26:58,011 - INFO - Current time: 2023-09-28 14:26:58
+2023-09-28 14:26:58,034 - INFO - Current time: 2023-09-28 14:26:58
+2023-09-28 14:26:58,152 - INFO - Current time: 2023-09-28 14:26:58
+2023-09-28 14:26:58,165 - INFO - Current time: 2023-09-28 14:26:58
+2023-09-28 14:26:58,264 - INFO - Current time: 2023-09-28 14:26:58
+2023-09-28 14:26:58,398 - INFO - Current time: 2023-09-28 14:26:58
+2023-09-28 14:26:58,512 - INFO - Current time: 2023-09-28 14:26:58
+2023-09-28 14:26:59,247 - INFO - Current time: 2023-09-28 14:26:59
+2023-09-28 14:26:59,512 - INFO - Current time: 2023-09-28 14:26:59
+2023-09-28 14:26:59,690 - INFO - Current time: 2023-09-28 14:26:59
+2023-09-28 14:26:59,886 - INFO - Current time: 2023-09-28 14:26:59
+2023-09-28 14:26:59,903 - INFO - Current time: 2023-09-28 14:26:59
+2023-09-28 14:27:00,576 - INFO - Current time: 2023-09-28 14:27:00
+2023-09-28 14:27:00,626 - INFO - Current time: 2023-09-28 14:27:00
+2023-09-28 14:27:00,828 - INFO - Current time: 2023-09-28 14:27:00
+2023-09-28 14:27:01,162 - INFO - Current time: 2023-09-28 14:27:01
+2023-09-28 14:27:01,168 - INFO - Current time: 2023-09-28 14:27:01
+2023-09-28 14:27:01,670 - INFO - Current time: 2023-09-28 14:27:01
+2023-09-28 14:27:01,680 - INFO - Current time: 2023-09-28 14:27:01
+2023-09-28 14:27:01,750 - INFO - Current time: 2023-09-28 14:27:01
+2023-09-28 14:27:01,776 - INFO - Current time: 2023-09-28 14:27:01
+2023-09-28 14:27:01,917 - INFO - Current time: 2023-09-28 14:27:01
+2023-09-28 14:27:02,222 - INFO - Current time: 2023-09-28 14:27:02
+2023-09-28 14:27:02,413 - INFO - Current time: 2023-09-28 14:27:02
+2023-09-28 14:27:02,432 - INFO - Current time: 2023-09-28 14:27:02
+2023-09-28 14:27:02,748 - INFO - Current time: 2023-09-28 14:27:02
+2023-09-28 14:27:02,858 - INFO - Current time: 2023-09-28 14:27:02
+2023-09-28 14:27:03,018 - INFO - Current time: 2023-09-28 14:27:03
+2023-09-28 14:27:03,065 - INFO - Current time: 2023-09-28 14:27:03
+2023-09-28 14:27:03,120 - INFO - Current time: 2023-09-28 14:27:03
+2023-09-28 14:27:03,432 - INFO - Current time: 2023-09-28 14:27:03
+2023-09-28 14:27:03,580 - INFO - Current time: 2023-09-28 14:27:03
+2023-09-28 14:27:03,985 - INFO - Current time: 2023-09-28 14:27:03
+2023-09-28 14:27:04,469 - INFO - Current time: 2023-09-28 14:27:04
+2023-09-28 14:27:05,000 - INFO - Current time: 2023-09-28 14:27:05
+2023-09-28 14:27:05,166 - INFO - Current time: 2023-09-28 14:27:05
+2023-09-28 14:27:05,593 - INFO - Current time: 2023-09-28 14:27:05
+2023-09-28 14:27:05,996 - INFO - Current time: 2023-09-28 14:27:05
+2023-09-28 14:27:06,862 - INFO - Current time: 2023-09-28 14:27:06
+2023-09-28 14:27:07,244 - INFO - Current time: 2023-09-28 14:27:07
+2023-09-28 14:27:07,731 - INFO - Current time: 2023-09-28 14:27:07
+2023-09-28 14:27:07,855 - INFO - Current time: 2023-09-28 14:27:07
+2023-09-28 14:27:08,816 - INFO - Current time: 2023-09-28 14:27:08
+2023-09-28 14:27:08,863 - INFO - Current time: 2023-09-28 14:27:08
+2023-09-28 14:27:08,942 - INFO - Current time: 2023-09-28 14:27:08
+2023-09-28 14:27:09,093 - INFO - Current time: 2023-09-28 14:27:09
+2023-09-28 14:27:09,352 - INFO - Current time: 2023-09-28 14:27:09
+2023-09-28 14:27:09,713 - INFO - Current time: 2023-09-28 14:27:09
+2023-09-28 14:27:10,364 - INFO - Current time: 2023-09-28 14:27:10
+2023-09-28 14:27:11,606 - INFO - Current time: 2023-09-28 14:27:11
+2023-09-28 14:27:12,325 - INFO - Current time: 2023-09-28 14:27:12
+2023-09-28 14:27:13,825 - INFO - Current time: 2023-09-28 14:27:13
+2023-09-28 14:27:14,064 - INFO - Current time: 2023-09-28 14:27:14
+2023-09-28 14:27:14,218 - INFO - Current time: 2023-09-28 14:27:14
+2023-09-28 14:27:14,264 - INFO - Current time: 2023-09-28 14:27:14
+2023-09-28 14:27:14,747 - INFO - Current time: 2023-09-28 14:27:14
+2023-09-28 14:27:15,116 - INFO - Current time: 2023-09-28 14:27:15
+2023-09-28 14:27:15,365 - INFO - Current time: 2023-09-28 14:27:15
+2023-09-28 14:27:16,488 - INFO - Current time: 2023-09-28 14:27:16
+2023-09-28 14:27:16,837 - INFO - Current time: 2023-09-28 14:27:16
+2023-09-28 14:27:17,900 - INFO - Current time: 2023-09-28 14:27:17
+2023-09-28 14:27:18,335 - INFO - Current time: 2023-09-28 14:27:18
+2023-09-28 14:27:18,340 - INFO - Current time: 2023-09-28 14:27:18
+2023-09-28 14:27:18,709 - INFO - Current time: 2023-09-28 14:27:18
+2023-09-28 14:27:19,500 - INFO - Current time: 2023-09-28 14:27:19
+2023-09-28 14:27:19,505 - INFO - Current time: 2023-09-28 14:27:19
+2023-09-28 14:27:19,525 - INFO - Current time: 2023-09-28 14:27:19
+2023-09-28 14:27:19,656 - INFO - Current time: 2023-09-28 14:27:19
+2023-09-28 14:27:19,864 - INFO - Current time: 2023-09-28 14:27:19
+2023-09-28 14:27:20,136 - INFO - Current time: 2023-09-28 14:27:20
+2023-09-28 14:27:20,190 - INFO - Current time: 2023-09-28 14:27:20
+2023-09-28 14:27:20,585 - INFO - Current time: 2023-09-28 14:27:20
+2023-09-28 14:27:20,588 - INFO - Current time: 2023-09-28 14:27:20
+2023-09-28 14:27:21,366 - INFO - Current time: 2023-09-28 14:27:21
+2023-09-28 14:27:21,448 - INFO - Current time: 2023-09-28 14:27:21
+2023-09-28 14:27:21,555 - INFO - Current time: 2023-09-28 14:27:21
+2023-09-28 14:27:21,597 - INFO - Current time: 2023-09-28 14:27:21
+2023-09-28 14:27:21,689 - INFO - Current time: 2023-09-28 14:27:21
+2023-09-28 14:27:22,037 - INFO - Current time: 2023-09-28 14:27:22
+2023-09-28 14:27:22,044 - INFO - Current time: 2023-09-28 14:27:22
+2023-09-28 14:27:22,130 - INFO - Current time: 2023-09-28 14:27:22
+2023-09-28 14:27:22,180 - INFO - Current time: 2023-09-28 14:27:22
+2023-09-28 14:27:22,588 - INFO - Current time: 2023-09-28 14:27:22
+2023-09-28 14:27:22,629 - INFO - Current time: 2023-09-28 14:27:22
+2023-09-28 14:27:22,744 - INFO - Current time: 2023-09-28 14:27:22
+2023-09-28 14:27:22,993 - INFO - Current time: 2023-09-28 14:27:22
+2023-09-28 14:27:23,323 - INFO - Current time: 2023-09-28 14:27:23
+2023-09-28 14:27:23,511 - INFO - Current time: 2023-09-28 14:27:23
+2023-09-28 14:27:23,802 - INFO - Current time: 2023-09-28 14:27:23
+2023-09-28 14:27:23,943 - INFO - Current time: 2023-09-28 14:27:23
+2023-09-28 14:27:23,956 - INFO - Current time: 2023-09-28 14:27:23
+2023-09-28 14:27:24,114 - INFO - Current time: 2023-09-28 14:27:24
+2023-09-28 14:27:24,215 - INFO - Current time: 2023-09-28 14:27:24
+2023-09-28 14:27:24,232 - INFO - Current time: 2023-09-28 14:27:24
+2023-09-28 14:27:24,700 - INFO - Current time: 2023-09-28 14:27:24
+2023-09-28 14:27:25,005 - INFO - Current time: 2023-09-28 14:27:25
+2023-09-28 14:27:25,341 - INFO - Current time: 2023-09-28 14:27:25
+2023-09-28 14:27:25,469 - INFO - Current time: 2023-09-28 14:27:25
+2023-09-28 14:27:25,651 - INFO - Current time: 2023-09-28 14:27:25
+2023-09-28 14:27:26,169 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,325 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,427 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,482 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,537 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,538 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,735 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,744 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,747 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,789 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:26,922 - INFO - Current time: 2023-09-28 14:27:26
+2023-09-28 14:27:27,166 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,327 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,393 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,470 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,629 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,653 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,710 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,739 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,863 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:27,910 - INFO - Current time: 2023-09-28 14:27:27
+2023-09-28 14:27:28,062 - INFO - Current time: 2023-09-28 14:27:28
+2023-09-28 14:27:28,108 - INFO - Current time: 2023-09-28 14:27:28
+2023-09-28 14:27:28,175 - INFO - Current time: 2023-09-28 14:27:28
+2023-09-28 14:27:28,365 - INFO - Current time: 2023-09-28 14:27:28
+2023-09-28 14:27:28,446 - INFO - Current time: 2023-09-28 14:27:28
+2023-09-28 14:27:28,456 - INFO - Current time: 2023-09-28 14:27:28
+2023-09-28 14:27:29,484 - INFO - Current time: 2023-09-28 14:27:29
+2023-09-28 14:27:29,753 - INFO - Current time: 2023-09-28 14:27:29
+2023-09-28 14:27:29,913 - INFO - Current time: 2023-09-28 14:27:29
+2023-09-28 14:27:29,962 - INFO - Current time: 2023-09-28 14:27:29
+2023-09-28 14:27:30,541 - INFO - Current time: 2023-09-28 14:27:30
+2023-09-28 14:27:30,543 - INFO - Total time taken: 3.88 minutes
+2023-09-28 14:27:30,748 - INFO - 250 videos found in /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real
+2023-09-28 14:27:37,575 - WARNING - No faces in frame 61 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00060.mp4
+2023-09-28 14:27:43,931 - WARNING - No faces in frame 149 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00010.mp4
+2023-09-28 14:27:44,645 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00069.mp4: 
+2023-09-28 14:27:44,657 - INFO - Current time: 2023-09-28 14:27:44
+2023-09-28 14:27:47,645 - WARNING - No faces in frame 217 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00012.mp4
+2023-09-28 14:27:48,278 - WARNING - No faces in frame 251 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00039.mp4
+2023-09-28 14:27:48,796 - WARNING - No faces in frame 287 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00025.mp4
+2023-09-28 14:27:52,069 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,103 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,201 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,281 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,342 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,365 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,526 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,726 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,788 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,849 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,908 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:52,950 - WARNING - No faces in frame 235 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00016.mp4
+2023-09-28 14:27:52,969 - INFO - Current time: 2023-09-28 14:27:52
+2023-09-28 14:27:53,040 - INFO - Current time: 2023-09-28 14:27:53
+2023-09-28 14:27:53,265 - INFO - Current time: 2023-09-28 14:27:53
+2023-09-28 14:27:53,288 - INFO - Current time: 2023-09-28 14:27:53
+2023-09-28 14:27:53,453 - INFO - Current time: 2023-09-28 14:27:53
+2023-09-28 14:27:53,465 - INFO - Current time: 2023-09-28 14:27:53
+2023-09-28 14:27:53,466 - INFO - Current time: 2023-09-28 14:27:53
+2023-09-28 14:27:53,534 - INFO - Current time: 2023-09-28 14:27:53
+2023-09-28 14:27:53,614 - INFO - Current time: 2023-09-28 14:27:53
+2023-09-28 14:27:53,641 - WARNING - No faces in frame 246 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00016.mp4
+2023-09-28 14:27:54,304 - INFO - Current time: 2023-09-28 14:27:54
+2023-09-28 14:27:54,566 - INFO - Current time: 2023-09-28 14:27:54
+2023-09-28 14:27:55,081 - INFO - Current time: 2023-09-28 14:27:55
+2023-09-28 14:27:55,957 - INFO - Current time: 2023-09-28 14:27:55
+2023-09-28 14:27:56,186 - INFO - Current time: 2023-09-28 14:27:56
+2023-09-28 14:27:56,323 - INFO - Current time: 2023-09-28 14:27:56
+2023-09-28 14:27:56,573 - INFO - Current time: 2023-09-28 14:27:56
+2023-09-28 14:27:56,667 - INFO - Current time: 2023-09-28 14:27:56
+2023-09-28 14:27:57,112 - INFO - Current time: 2023-09-28 14:27:57
+2023-09-28 14:27:57,264 - INFO - Current time: 2023-09-28 14:27:57
+2023-09-28 14:27:57,275 - INFO - Current time: 2023-09-28 14:27:57
+2023-09-28 14:27:57,591 - INFO - Current time: 2023-09-28 14:27:57
+2023-09-28 14:27:57,625 - INFO - Current time: 2023-09-28 14:27:57
+2023-09-28 14:27:57,689 - WARNING - No faces in frame 413 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00039.mp4
+2023-09-28 14:27:57,880 - WARNING - No faces in frame 402 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00054.mp4
+2023-09-28 14:27:58,017 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,082 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,091 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,242 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,302 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,343 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,384 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,405 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,436 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,522 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,536 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,610 - WARNING - No faces in frame 0 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00109.mp4
+2023-09-28 14:27:58,619 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,626 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,631 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,744 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,909 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,916 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,954 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,962 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,996 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:58,997 - INFO - Current time: 2023-09-28 14:27:58
+2023-09-28 14:27:59,061 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,074 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,115 - WARNING - No faces in frame 476 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00063.mp4
+2023-09-28 14:27:59,121 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,140 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,157 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,246 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,255 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,320 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,621 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,680 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,695 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,774 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:27:59,972 - INFO - Current time: 2023-09-28 14:27:59
+2023-09-28 14:28:00,101 - INFO - Current time: 2023-09-28 14:28:00
+2023-09-28 14:28:00,106 - INFO - Current time: 2023-09-28 14:28:00
+2023-09-28 14:28:00,109 - INFO - Current time: 2023-09-28 14:28:00
+2023-09-28 14:28:00,118 - INFO - Current time: 2023-09-28 14:28:00
+2023-09-28 14:28:00,658 - INFO - Current time: 2023-09-28 14:28:00
+2023-09-28 14:28:00,783 - INFO - Current time: 2023-09-28 14:28:00
+2023-09-28 14:28:01,147 - WARNING - No faces in frame 194 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00092.mp4
+2023-09-28 14:28:01,413 - INFO - Current time: 2023-09-28 14:28:01
+2023-09-28 14:28:01,516 - INFO - Current time: 2023-09-28 14:28:01
+2023-09-28 14:28:01,633 - INFO - Current time: 2023-09-28 14:28:01
+2023-09-28 14:28:01,695 - INFO - Current time: 2023-09-28 14:28:01
+2023-09-28 14:28:02,086 - INFO - Current time: 2023-09-28 14:28:02
+2023-09-28 14:28:02,382 - INFO - Current time: 2023-09-28 14:28:02
+2023-09-28 14:28:03,511 - WARNING - No faces in frame 63 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00106.mp4
+2023-09-28 14:28:03,905 - WARNING - No faces in frame 0 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00154.mp4
+2023-09-28 14:28:04,445 - WARNING - No faces in frame 84 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00109.mp4
+2023-09-28 14:28:05,178 - WARNING - No faces in frame 213 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00103.mp4
+2023-09-28 14:28:05,540 - INFO - Current time: 2023-09-28 14:28:05
+2023-09-28 14:28:06,581 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00088.mp4: 
+2023-09-28 14:28:06,601 - INFO - Current time: 2023-09-28 14:28:06
+2023-09-28 14:28:07,450 - WARNING - No faces in frame 329 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00095.mp4
+2023-09-28 14:28:07,586 - WARNING - No faces in frame 102 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00130.mp4
+2023-09-28 14:28:10,650 - WARNING - No faces in frame 149 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00124.mp4
+2023-09-28 14:28:10,961 - WARNING - No faces in frame 338 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00102.mp4
+2023-09-28 14:28:12,541 - INFO - Current time: 2023-09-28 14:28:12
+2023-09-28 14:28:12,577 - INFO - Current time: 2023-09-28 14:28:12
+2023-09-28 14:28:12,788 - INFO - Current time: 2023-09-28 14:28:12
+2023-09-28 14:28:13,032 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,167 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,334 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,411 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,469 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,496 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,497 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,541 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,732 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:13,949 - INFO - Current time: 2023-09-28 14:28:13
+2023-09-28 14:28:14,164 - INFO - Current time: 2023-09-28 14:28:14
+2023-09-28 14:28:14,238 - INFO - Current time: 2023-09-28 14:28:14
+2023-09-28 14:28:14,270 - INFO - Current time: 2023-09-28 14:28:14
+2023-09-28 14:28:14,356 - INFO - Current time: 2023-09-28 14:28:14
+2023-09-28 14:28:14,726 - INFO - Current time: 2023-09-28 14:28:14
+2023-09-28 14:28:14,935 - INFO - Current time: 2023-09-28 14:28:14
+2023-09-28 14:28:15,300 - INFO - Current time: 2023-09-28 14:28:15
+2023-09-28 14:28:15,726 - INFO - Current time: 2023-09-28 14:28:15
+2023-09-28 14:28:15,975 - INFO - Current time: 2023-09-28 14:28:15
+2023-09-28 14:28:16,564 - INFO - Current time: 2023-09-28 14:28:16
+2023-09-28 14:28:17,614 - WARNING - No faces in frame 263 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00109.mp4
+2023-09-28 14:28:17,625 - INFO - Current time: 2023-09-28 14:28:17
+2023-09-28 14:28:18,559 - INFO - Current time: 2023-09-28 14:28:18
+2023-09-28 14:28:19,547 - WARNING - No faces in frame 281 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00130.mp4
+2023-09-28 14:28:19,662 - WARNING - No faces in frame 298 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00124.mp4
+2023-09-28 14:28:21,710 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00168.mp4: 
+2023-09-28 14:28:21,729 - INFO - Current time: 2023-09-28 14:28:21
+2023-09-28 14:28:23,384 - INFO - Current time: 2023-09-28 14:28:23
+2023-09-28 14:28:23,586 - INFO - Current time: 2023-09-28 14:28:23
+2023-09-28 14:28:23,846 - INFO - Current time: 2023-09-28 14:28:23
+2023-09-28 14:28:23,939 - WARNING - No faces in frame 333 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00131.mp4
+2023-09-28 14:28:23,972 - INFO - Current time: 2023-09-28 14:28:23
+2023-09-28 14:28:24,000 - INFO - Current time: 2023-09-28 14:28:24
+2023-09-28 14:28:24,433 - WARNING - No faces in frame 344 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00131.mp4
+2023-09-28 14:28:24,567 - INFO - Current time: 2023-09-28 14:28:24
+2023-09-28 14:28:24,603 - INFO - Current time: 2023-09-28 14:28:24
+2023-09-28 14:28:24,891 - INFO - Current time: 2023-09-28 14:28:24
+2023-09-28 14:28:25,059 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,061 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,115 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,118 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,192 - WARNING - No faces in frame 406 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00124.mp4
+2023-09-28 14:28:25,465 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00154.mp4: 
+2023-09-28 14:28:25,474 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,478 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,482 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,560 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,600 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,742 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,774 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,850 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:25,856 - INFO - Current time: 2023-09-28 14:28:25
+2023-09-28 14:28:26,037 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,232 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,323 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,342 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,348 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,426 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,441 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,510 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,521 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,526 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,694 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,776 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:26,932 - INFO - Current time: 2023-09-28 14:28:26
+2023-09-28 14:28:27,149 - WARNING - No faces in frame 459 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00128.mp4
+2023-09-28 14:28:27,162 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,369 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,432 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,495 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,581 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,586 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,655 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,750 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,860 - INFO - Current time: 2023-09-28 14:28:27
+2023-09-28 14:28:27,984 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00177.mp4: 
+2023-09-28 14:28:28,000 - INFO - Current time: 2023-09-28 14:28:28
+2023-09-28 14:28:28,117 - INFO - Current time: 2023-09-28 14:28:28
+2023-09-28 14:28:28,171 - INFO - Current time: 2023-09-28 14:28:28
+2023-09-28 14:28:28,605 - INFO - Current time: 2023-09-28 14:28:28
+2023-09-28 14:28:28,751 - INFO - Current time: 2023-09-28 14:28:28
+2023-09-28 14:28:28,868 - INFO - Current time: 2023-09-28 14:28:28
+2023-09-28 14:28:28,961 - INFO - Current time: 2023-09-28 14:28:28
+2023-09-28 14:28:29,226 - WARNING - No faces in frame 14 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00213.mp4
+2023-09-28 14:28:29,484 - INFO - Current time: 2023-09-28 14:28:29
+2023-09-28 14:28:29,486 - INFO - Current time: 2023-09-28 14:28:29
+2023-09-28 14:28:29,584 - INFO - Current time: 2023-09-28 14:28:29
+2023-09-28 14:28:29,666 - WARNING - No faces in frame 0 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00226.mp4
+2023-09-28 14:28:29,751 - INFO - Current time: 2023-09-28 14:28:29
+2023-09-28 14:28:29,932 - INFO - Current time: 2023-09-28 14:28:29
+2023-09-28 14:28:30,057 - INFO - Current time: 2023-09-28 14:28:30
+2023-09-28 14:28:31,706 - WARNING - No faces in frame 62 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00219.mp4
+2023-09-28 14:28:31,755 - WARNING - No faces in frame 301 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00181.mp4
+2023-09-28 14:28:31,845 - WARNING - No faces in frame 378 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00171.mp4
+2023-09-28 14:28:32,231 - WARNING - No faces in frame 314 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00181.mp4
+2023-09-28 14:28:32,273 - ERROR - Error processing video /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00170.mp4: 
+2023-09-28 14:28:32,294 - INFO - Current time: 2023-09-28 14:28:32
+2023-09-28 14:28:33,318 - INFO - Current time: 2023-09-28 14:28:33
+2023-09-28 14:28:33,569 - INFO - Current time: 2023-09-28 14:28:33
+2023-09-28 14:28:33,685 - INFO - Current time: 2023-09-28 14:28:33
+2023-09-28 14:28:34,033 - INFO - Current time: 2023-09-28 14:28:34
+2023-09-28 14:28:34,072 - INFO - Current time: 2023-09-28 14:28:34
+2023-09-28 14:28:34,164 - INFO - Current time: 2023-09-28 14:28:34
+2023-09-28 14:28:34,222 - INFO - Current time: 2023-09-28 14:28:34
+2023-09-28 14:28:34,234 - INFO - Current time: 2023-09-28 14:28:34
+2023-09-28 14:28:34,566 - INFO - Current time: 2023-09-28 14:28:34
+2023-09-28 14:28:34,599 - INFO - Current time: 2023-09-28 14:28:34
+2023-09-28 14:28:34,841 - WARNING - No faces in frame 124 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00219.mp4
+2023-09-28 14:28:34,939 - INFO - Current time: 2023-09-28 14:28:34
+2023-09-28 14:28:35,075 - INFO - Current time: 2023-09-28 14:28:35
+2023-09-28 14:28:35,077 - INFO - Current time: 2023-09-28 14:28:35
+2023-09-28 14:28:35,128 - INFO - Current time: 2023-09-28 14:28:35
+2023-09-28 14:28:35,138 - INFO - Current time: 2023-09-28 14:28:35
+2023-09-28 14:28:35,328 - INFO - Current time: 2023-09-28 14:28:35
+2023-09-28 14:28:35,557 - WARNING - No faces in frame 390 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00181.mp4
+2023-09-28 14:28:35,566 - INFO - Current time: 2023-09-28 14:28:35
+2023-09-28 14:28:35,704 - WARNING - No faces in frame 132 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00212.mp4
+2023-09-28 14:28:35,864 - WARNING - No faces in frame 36 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00207.mp4
+2023-09-28 14:28:35,979 - WARNING - No faces in frame 155 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00219.mp4
+2023-09-28 14:28:36,479 - INFO - Current time: 2023-09-28 14:28:36
+2023-09-28 14:28:36,692 - WARNING - No faces in frame 40 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00207.mp4
+2023-09-28 14:28:36,929 - INFO - Current time: 2023-09-28 14:28:36
+2023-09-28 14:28:37,047 - INFO - Current time: 2023-09-28 14:28:37
+2023-09-28 14:28:37,336 - WARNING - No faces in frame 192 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00213.mp4
+2023-09-28 14:28:38,149 - INFO - Current time: 2023-09-28 14:28:38
+2023-09-28 14:28:39,297 - INFO - Current time: 2023-09-28 14:28:39
+2023-09-28 14:28:42,254 - INFO - Current time: 2023-09-28 14:28:42
+2023-09-28 14:28:43,331 - WARNING - No faces in frame 350 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00195.mp4
+2023-09-28 14:28:44,973 - WARNING - No faces in frame 92 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00207.mp4
+2023-09-28 14:28:45,523 - WARNING - No faces in frame 96 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00207.mp4
+2023-09-28 14:28:45,721 - INFO - Current time: 2023-09-28 14:28:45
+2023-09-28 14:28:45,944 - WARNING - No faces in frame 100 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00207.mp4
+2023-09-28 14:28:47,183 - INFO - Current time: 2023-09-28 14:28:47
+2023-09-28 14:28:47,609 - INFO - Current time: 2023-09-28 14:28:47
+2023-09-28 14:28:47,649 - INFO - Current time: 2023-09-28 14:28:47
+2023-09-28 14:28:48,345 - INFO - Current time: 2023-09-28 14:28:48
+2023-09-28 14:28:48,370 - INFO - Current time: 2023-09-28 14:28:48
+2023-09-28 14:28:48,416 - INFO - Current time: 2023-09-28 14:28:48
+2023-09-28 14:28:48,708 - WARNING - No faces in frame 395 of /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/datasets/Celeb-DF-v1/YouTube-real/00211.mp4
+2023-09-28 14:28:48,790 - INFO - Current time: 2023-09-28 14:28:48
+2023-09-28 14:28:48,797 - INFO - Current time: 2023-09-28 14:28:48
+2023-09-28 14:28:48,928 - INFO - Current time: 2023-09-28 14:28:48
+2023-09-28 14:28:48,931 - INFO - Current time: 2023-09-28 14:28:48
+2023-09-28 14:28:48,968 - INFO - Current time: 2023-09-28 14:28:48
+2023-09-28 14:28:49,090 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,101 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,106 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,125 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,226 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,282 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,342 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,375 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,388 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,394 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,541 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,549 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,587 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,598 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,705 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,724 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,733 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,749 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:49,770 - INFO - Current time: 2023-09-28 14:28:49
+2023-09-28 14:28:50,153 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,261 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,437 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,474 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,615 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,639 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,763 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,822 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,823 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,882 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:50,963 - INFO - Current time: 2023-09-28 14:28:50
+2023-09-28 14:28:51,066 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,079 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,118 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,178 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,265 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,301 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,346 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,507 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,510 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,531 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,556 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,564 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,743 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:51,842 - INFO - Current time: 2023-09-28 14:28:51
+2023-09-28 14:28:52,098 - INFO - Current time: 2023-09-28 14:28:52
+2023-09-28 14:28:52,105 - INFO - Current time: 2023-09-28 14:28:52
+2023-09-28 14:28:52,174 - INFO - Current time: 2023-09-28 14:28:52
+2023-09-28 14:28:52,212 - INFO - Current time: 2023-09-28 14:28:52
+2023-09-28 14:28:52,324 - INFO - Current time: 2023-09-28 14:28:52
+2023-09-28 14:28:52,424 - INFO - Current time: 2023-09-28 14:28:52
+2023-09-28 14:28:52,425 - INFO - Total time taken: 1.36 minutes
+2023-09-28 14:28:52,624 - INFO - Face cropping complete!
