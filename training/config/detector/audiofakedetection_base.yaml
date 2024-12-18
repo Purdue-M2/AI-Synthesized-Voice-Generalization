@@ -5,7 +5,7 @@ tsne_fl: xxx
 # model setting
 # pretrained: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 pretrained: 'None'
-model_name: ucf   # model name
+model_name: AudioFakeDetector   # model name
 backbone_name: rawnet2  # backbone name
 encoder_feat_dim: 1024  # feature dimension of the backbone
 
@@ -35,9 +35,9 @@ train_dataset: [FF-F2F, FF-DF, FF-FS, FF-NT,]
 test_dataset: [FaceShifter, Celeb-DF-v1, DeeperForensics-1.0,]
 dataset_json_folder: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json'
 dataset_type: pair-audio
-train_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list'
-dev_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/dev-ucf.list'
-test_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/test-ucf.list'
+train_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-audiofakedetection.list'
+dev_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/dev-audiofakedetection.list'
+test_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/test-audiofakedetection.list'
 
 compression: c23  # compression-level for videos
 train_batchSize: 16   # training batch size
@@ -58,7 +58,6 @@ label_dict:
   FaceShifter: 1
   FF-FH: 1
   # FF++ + FaceShifter(FF-real+FF-FH)
-  # ucf specific label setting
   FF-DF: 1
   FF-F2F: 2
   FF-FS: 3

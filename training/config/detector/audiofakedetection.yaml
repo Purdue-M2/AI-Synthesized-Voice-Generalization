@@ -1,13 +1,12 @@
 # log dir 
-log_dir: '/face/hnren/3.SSL/data/research_proposal/benchmark_results/logs_final/tst/ucf_resnet_audio_lr0.0002_adam_fd-DV-SAM.rho0.07.adap-False'
-tsne_fl: xxx
+log_dir: /home/work//research_proposal/benchmark_results/logs_final/audiofakedetection_reset
 
 # model setting
-# pretrained: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/audio-ucf/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
-pretrained: 'None'
-model_name: ucf   # model name
+# pretrained: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+# pretrained: '/home/zhiyuanyan/.cache/torch/hub/checkpoints/resnet34-b627a593.pth'   # path to a pre-trained model, if using one
+model_name: AudioFakeDetector   # model name
 backbone_name: rawnet2  # backbone name
-encoder_feat_dim: 1024  # feature dimension of the backbone
+encoder_feat_dim: 512  # feature dimension of the backbone
 
 #backbone setting
 backbone_config:
@@ -16,28 +15,13 @@ backbone_config:
   inc: 3
   dropout: false
 
-  # 🥏 RawNet2
-  device: 0
-  margin: 2
-  nb_samp: 64000
-  first_conv: 128   # no. of filter coefficients 
-  in_channels: 1
-  filts: [128, [128, 128], [128, 512], [512, 512]]
-  blocks: [2, 4]
-  nb_fc_node: 1024
-  gru_node: 1024
-  nb_gru_layer: 3
-  nb_classes: 2
-
 # dataset
 all_dataset: [FaceForensics++, FF-F2F, FF-DF, FF-FS, FF-NT, FaceShifter, DeepFakeDetection, Celeb-DF-v1, Celeb-DF-v2, DFDCP, DFDC, DeeperForensics-1.0, UADFV]
 train_dataset: [FF-F2F, FF-DF, FF-FS, FF-NT,]
 test_dataset: [FaceShifter, Celeb-DF-v1, DeeperForensics-1.0,]
-dataset_json_folder: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/audio-ucf/preprocessing/dataset_json'
+dataset_json_folder: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json'
 dataset_type: pair-audio
-train_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list'
-dev_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/dev-ucf.list'
-test_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/test-ucf.list'
+train_file: '/face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-audiofakedetection.list'
 
 compression: c23  # compression-level for videos
 train_batchSize: 16   # training batch size
@@ -58,7 +42,7 @@ label_dict:
   FaceShifter: 1
   FF-FH: 1
   # FF++ + FaceShifter(FF-real+FF-FH)
-  # ucf specific label setting
+
   FF-DF: 1
   FF-F2F: 2
   FF-FS: 3
@@ -108,20 +92,20 @@ optimizer:
   # choose between 'adam' and 'sgd'
   type: adam
   adam:
-    lr: '0.0002'  # learning rate
+    lr: 0.0002  # learning rate
     beta1: 0.9  # beta1 for Adam optimizer
     beta2: 0.999 # beta2 for Adam optimizer
     eps: 0.00000001  # epsilon for Adam optimizer
     weight_decay: 0.0005  # weight decay for regularization
     amsgrad: false
   sgd:
-    lr: '0.0002'  # learning rate
+    lr: 0.0002  # learning rate
     momentum: 0.9  # momentum for SGD optimizer
     weight_decay: 0.0005  # weight decay for regularization
 
 # training config
 lr_scheduler: null   # learning rate scheduler
-nEpochs: 50   # number of epochs to train for
+nEpochs: 5   # number of epochs to train for
 start_epoch: 0   # manual epoch number (useful for restarts)
 save_epoch: 1   # interval epochs for saving models
 rec_iter: 100   # interval iterations for recording
@@ -144,14 +128,3 @@ metric_scoring: auc   # metric for evaluation (auc, acc, eer, ap)
 ngpu: 1   # number of GPUs to use
 cuda: true   # whether to use CUDA acceleration
 cudnn: true   # whether to use CuDNN for convolution operations
-
-# SAM
-sam_param:
-  rho: 0.07
-  use_adaptive_sam: False
-
-mi_param:
-  mi_turn_on: True
-  mi_mode: 'fd'
-  mi_mode_measure: 'DV'
-  mi_lambda: 0.03

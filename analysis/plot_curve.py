@@ -5,7 +5,6 @@ import numpy as np
 
 # 定义所有的检测器和数据集名称
 detectors = ['fwa', 'facexray']
-# detectors = ['srm', 'xception', 'f3net', 'ucf', 'cnn_aug', 'spsl', 'efficientnetb4', 'capsule', 'meso4', 'recce', 'meso4Inception', 'ffd', 'core',] # 'fwa', 'facexray'
 dataset_names = ['Celeb-DF-v1', 'Celeb-DF-v2', 'DeeperForensics-1.0', 'FaceShifter', 'DeepFakeDetection', 'DFDC', 'DFDCP', 'FaceForensics++', 'FaceForensics++_c40', 'FF-DF', 'FF-F2F', 'FF-FS', 'FF-NT', 'UADFV']
 
 # 设置图形参数

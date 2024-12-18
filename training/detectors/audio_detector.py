@@ -1,14 +1,4 @@
 '''
-# author: Zhiyuan Yan
-# email: zhiyuanyan@link.cuhk.edu.cn
-# date: 2023-0706
-# description: Class for the UCFDetector
-
-# author: Hainan ren
-# email: hnren666@gmail.com
-# date: 2023-1101
-# description: Class for the UCFDetector in Audio!
-
 Functions in the Class are summarized as:
 1. __init__: Initialization
 2. build_backbone: Backbone-building
@@ -20,13 +10,6 @@ Functions in the Class are summarized as:
 8. get_test_metrics: Testing-metrics-computation
 9. forward: Forward-propagation
 
-Reference:
-@article{yan2023ucf,
-  title={UCF: Uncovering Common Features for Generalizable Deepfake Detection},
-  author={Yan, Zhiyuan and Zhang, Yong and Fan, Yanbo and Wu, Baoyuan},
-  journal={arXiv preprint arXiv:2304.13949},
-  year={2023}
-}
 
 !!
 '''
@@ -89,8 +72,8 @@ def compute_dim_loss(l_enc, m_enc, measure, mode):
     return loss
 
 
-@DETECTOR.register_module(module_name='ucf')
-class UCFDetector(AbstractDetector):
+@DETECTOR.register_module(module_name='AudioFakeDetector')
+class AudioFakeDetector(AbstractDetector):
 
     def __init__(self, config):
         super().__init__()

@@ -133,7 +133,7 @@ methods = ['core', 'spsl', 'ucf', 'facexray']
 arch_mapping = {
     'core_eff': 'EfficientNet', 'core_res': 'ResNet', 'core_xcep': 'Xception',
     'spsl_eff': 'EfficientNet', 'spsl_res': 'ResNet', 'spsl_xcep': 'Xception',
-    'ucf_eff': 'EfficientNet', 'ucf_res': 'ResNet', 'ucf_xcep': 'Xception',
+    'audiofakedetection_reseteff': 'EfficientNet', 'audiofakedetection_resetres': 'ResNet', 'audiofakedetection_resetxcep': 'Xception',
     'facexray_eff': 'EfficientNet', 'facexray_res': 'ResNet', 'facexray_xcep': 'Xception'
 }
 datasets = ['DFDCP', 'Celeb-DF-v2', 'FaceForensics++', 'FaceForensics++_c40', 'DeepFakeDetection']

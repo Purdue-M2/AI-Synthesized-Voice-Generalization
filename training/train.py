@@ -1,12 +1,3 @@
-# author: Zhiyuan Yan
-# email: zhiyuanyan@link.cuhk.edu.cn
-# date: 2023-03-30
-# description: training code.
-# author: Hainan ren
-# email: hnren666@gmail.com
-# date: 2023-1101
-# description: Class for the UCFDetector in Audio!
-
 import os
 import numpy as np
 from os.path import join
@@ -39,7 +30,7 @@ from logger import create_logger
 
 parser = argparse.ArgumentParser(description='Process some paths.')
 parser.add_argument('--detector_path', type=str, 
-                    default='/home/zhiyuanyan/disfin/deepfake_benchmark/training/config/detector/ucf.yaml',
+                    default='/home/zhiyuanyan/disfin/deepfake_benchmark/training/config/detector/audiofakedetection.yaml',
                     help='path to detector YAML file')
 parser.add_argument("--train_dataset", nargs="+")
 parser.add_argument("--test_dataset", nargs="+")

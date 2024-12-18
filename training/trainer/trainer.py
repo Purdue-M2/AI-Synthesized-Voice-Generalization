@@ -1,12 +1,3 @@
-# author: Zhiyuan Yan
-# email: zhiyuanyan@link.cuhk.edu.cn
-# date: 2023-03-30
-# description: trainer
-# author: Hainan ren
-# email: hnren666@gmail.com
-# date: 2023-1101
-# description: Class for the UCFDetector in Audio!
-
 import os
 import pickle
 import datetime

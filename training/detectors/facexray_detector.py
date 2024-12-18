@@ -1,9 +1,4 @@
 '''
-# author: Zhiyuan Yan
-# email: zhiyuanyan@link.cuhk.edu.cn
-# date: 2023-0706
-# description: Class for the UCFDetector
-
 Functions in the Class are summarized as:
 1. __init__: Initialization
 2. build_backbone: Backbone-building

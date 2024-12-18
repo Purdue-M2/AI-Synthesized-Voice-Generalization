@@ -18,7 +18,6 @@ model_scale_explore
 number_frames_explore
 pretrained_explore
 test_all
-ucf_training
 architecture_explore
 all_test_results
 aug_exp

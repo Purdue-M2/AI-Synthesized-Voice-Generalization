@@ -4,7 +4,7 @@ JOBNAME=tst
 
 cd ../training
 
-GPUID=7
+GPUID=0
 export CUDA_VISIBLE_DEVICES=${GPUID}
 
 # lr=0.0002
@@ -15,10 +15,10 @@ export CUDA_VISIBLE_DEVICES=${GPUID}
 # rho=0.07
 # use_adaptive_sam=False
 
-logfd=/face/hnren/3.SSL/data/research_proposal/benchmark_results/logs_final/${JOBNAME}/ucf_resnet_audio_lr${lr}_${opt}_${mode}-${measure}-SAM.rho${rho}.adap-${use_adaptive_sam}
+logfd=/home/work//research_proposal/benchmark_results/logs_final/${JOBNAME}/audiofakedetection_reset_audio_lr${lr}_${opt}_${mode}-${measure}-SAM.rho${rho}.adap-${use_adaptive_sam}
 touch_fd ${logfd}
 
-CFGfl=config/detector/ucf_audio.yaml
+CFGfl=config/detector/audiofakedetection_audio.yaml
 ckptfl=../ckpt_28.pth
 
 

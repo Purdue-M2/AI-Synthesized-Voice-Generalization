@@ -60,7 +60,7 @@ def show_identity_v2(imgs,size=(128,384),figsize=(10,3)):
     
     
 FAKE_AUDIO_VOCODER=['melgan', 'parallel_wave_gan', 'waveglow', 'mb_mel_gan', 'fb_mel_gan', 'hifi_gan']
-CKPT_EST_FD='/face/hnren/3.SSL/data/research_proposal/benchmark_results/logs_final/n0t2/ucf_resnet_audio_lr0.0002_adam/ucf_2023-10-05-22-59-34/test/LibriSeVoc/ckpt_27.pth.Estimate.WaveFake.v2'
+CKPT_EST_FD='/home/work//research_proposal/benchmark_results/logs_final/n0t2/audiofakedetection_reset_audio_lr0.0002_adam/audiofakedetection_reset2023-10-05-22-59-34/test/LibriSeVoc/ckpt_27.pth.Estimate.WaveFake.v2'
 
 detector_name_list = [f'{CKPT_EST_FD}/tsne-{e}.pkl' for e in FAKE_AUDIO_VOCODER]
 
