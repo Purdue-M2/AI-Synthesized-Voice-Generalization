@@ -66,7 +66,7 @@ Sharpness of Loss Landscape. Existing DNN-based AI-synthesized voice detection m
 |            Ours           | 13.55 | 0.30 | 15.66 | 24.69 | 20.27 | 16.29 | 18.02 | 26.50 | 20.39 | 1.55 | 39.23 | 38.20 | 5.72 | 48.43 | 46.42 | 52.24 |
 
 ## Citation
-Please kindly consider citing our papers in your publications. 
+Please kindly consider citing our paper in your publications. 
 ```bash
 @inproceedings{Ren2025improving,
   title={Improving Generalization for AI-Synthesized Voice Detection},
