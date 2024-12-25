@@ -1,4 +1,10 @@
-# AI-Synthesized-Voice-Generalization
+# Improving Generalization for AI-Synthesized Voice Detection
+
+Hainan Ren, Li Lin, Chun-Hao Liu, Xin Wang, Shu Hu
+_________________
+
+This repository is the official implementation of our paper "Improving Generalization for AI-Synthesized Voice Detection", which has been accepted by **AAAI 2024**.
+
 <div align="center">
 <img src=resources/logo.webp width="50%"/>
 </div>
