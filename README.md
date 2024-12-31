@@ -3,7 +3,7 @@
 Hainan Ren, Li Lin, Chun-Hao Liu, Xin Wang, Shu Hu
 _________________
 
-This repository is the official implementation of our paper "Improving Generalization for AI-Synthesized Voice Detection", which has been accepted by **AAAI 2025**.
+This repository is the official implementation of our paper [Improving Generalization for AI-Synthesized Voice Detection](https://arxiv.org/abs/2412.19279), which has been accepted by **AAAI 2025**.
 
 <div align="center">
 <img src=resources/logo.webp width="50%"/>
