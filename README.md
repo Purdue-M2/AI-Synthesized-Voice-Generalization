@@ -10,7 +10,7 @@ This repository is the official implementation of our paper [Improving Generaliz
 </div>
 
 <p align="center">
-📚 View the <a href="[https://arxiv.org/abs/xxxx](https://arxiv.org/abs/2412.19279)" target="_blank">paper</a>
+📚 View the <a href="https://arxiv.org/abs/2412.19279" target="_blank">paper</a>
 </p>
 <p align="center">
 
