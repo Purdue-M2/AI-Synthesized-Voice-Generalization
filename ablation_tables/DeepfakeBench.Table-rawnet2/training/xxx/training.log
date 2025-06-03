@@ -1,0 +1,3328 @@
+2023-09-30 14:15:07,183 - INFO - Save log to xxx
+2023-09-30 14:15:07,183 - INFO - --------------- Configuration ---------------
+2023-09-30 14:15:07,184 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:16:19,665 - INFO - Save log to xxx
+2023-09-30 14:16:19,665 - INFO - --------------- Configuration ---------------
+2023-09-30 14:16:19,665 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:16:42,629 - INFO - Save log to xxx
+2023-09-30 14:16:42,630 - INFO - --------------- Configuration ---------------
+2023-09-30 14:16:42,630 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:17:06,326 - INFO - Save log to xxx
+2023-09-30 14:17:06,326 - INFO - --------------- Configuration ---------------
+2023-09-30 14:17:06,326 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:17:55,537 - INFO - Save log to xxx
+2023-09-30 14:17:55,538 - INFO - --------------- Configuration ---------------
+2023-09-30 14:17:55,538 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:20:20,565 - INFO - Save log to xxx
+2023-09-30 14:20:20,565 - INFO - --------------- Configuration ---------------
+2023-09-30 14:20:20,565 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+device: 0
+margin: 2
+nb_samp: 64000
+first_conv: 128
+in_channels: 1
+filts: [128, [128, 128], [128, 512], [512, 512]]
+blocks: [2, 4]
+nb_fc_node: 1024
+gru_node: 1024
+nb_gru_layer: 3
+nb_classes: 2
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:22:02,521 - INFO - Save log to xxx
+2023-09-30 14:22:02,521 - INFO - --------------- Configuration ---------------
+2023-09-30 14:22:02,521 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+device: 0
+margin: 2
+nb_samp: 64000
+first_conv: 128
+in_channels: 1
+filts: [128, [128, 128], [128, 512], [512, 512]]
+blocks: [2, 4]
+nb_fc_node: 1024
+gru_node: 1024
+nb_gru_layer: 3
+nb_classes: 2
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:24:17,194 - INFO - Save log to xxx
+2023-09-30 14:24:17,194 - INFO - --------------- Configuration ---------------
+2023-09-30 14:24:17,194 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+device: 0
+margin: 2
+nb_samp: 64000
+first_conv: 128
+in_channels: 1
+filts: [128, [128, 128], [128, 512], [512, 512]]
+blocks: [2, 4]
+nb_fc_node: 1024
+gru_node: 1024
+nb_gru_layer: 3
+nb_classes: 2
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:26:21,895 - INFO - Save log to xxx
+2023-09-30 14:26:21,896 - INFO - --------------- Configuration ---------------
+2023-09-30 14:26:21,896 - INFO - Parameters: 
+log_dir: xxx
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:27:12,765 - INFO - Save log to xxx
+2023-09-30 14:27:12,765 - INFO - --------------- Configuration ---------------
+2023-09-30 14:27:12,766 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:27:52,981 - INFO - Save log to xxx
+2023-09-30 14:27:52,981 - INFO - --------------- Configuration ---------------
+2023-09-30 14:27:52,981 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:28:36,595 - INFO - Save log to xxx
+2023-09-30 14:28:36,595 - INFO - --------------- Configuration ---------------
+2023-09-30 14:28:36,595 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:28:57,409 - INFO - Save log to xxx
+2023-09-30 14:28:57,409 - INFO - --------------- Configuration ---------------
+2023-09-30 14:28:57,409 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:29:37,208 - INFO - Save log to xxx
+2023-09-30 14:29:37,208 - INFO - --------------- Configuration ---------------
+2023-09-30 14:29:37,209 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:29:39,725 - INFO - ===> Epoch[0] start!
+2023-09-30 14:32:23,754 - INFO - Save log to xxx
+2023-09-30 14:32:23,754 - INFO - --------------- Configuration ---------------
+2023-09-30 14:32:23,754 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:36:28,995 - INFO - Save log to xxx
+2023-09-30 14:36:28,995 - INFO - --------------- Configuration ---------------
+2023-09-30 14:36:28,995 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:36:53,236 - INFO - Save log to xxx
+2023-09-30 14:36:53,236 - INFO - --------------- Configuration ---------------
+2023-09-30 14:36:53,236 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:36:55,663 - INFO - ===> Epoch[0] start!
+2023-09-30 14:36:55,724 - INFO - data_dict saved to xxx/ucf_2023-09-30-14-36-55/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 14:49:11,003 - INFO - Save log to xxx
+2023-09-30 14:49:11,004 - INFO - --------------- Configuration ---------------
+2023-09-30 14:49:11,004 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:50:24,932 - INFO - Save log to xxx
+2023-09-30 14:50:24,932 - INFO - --------------- Configuration ---------------
+2023-09-30 14:50:24,932 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:50:27,364 - INFO - ===> Epoch[0] start!
+2023-09-30 14:50:27,433 - INFO - data_dict saved to xxx/ucf_2023-09-30-14-50-27/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 14:51:11,060 - INFO - Save log to xxx
+2023-09-30 14:51:11,061 - INFO - --------------- Configuration ---------------
+2023-09-30 14:51:11,061 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:51:13,425 - INFO - ===> Epoch[0] start!
+2023-09-30 14:51:13,490 - INFO - data_dict saved to xxx/ucf_2023-09-30-14-51-13/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 14:51:44,504 - INFO - Save log to xxx
+2023-09-30 14:51:44,504 - INFO - --------------- Configuration ---------------
+2023-09-30 14:51:44,504 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:51:46,827 - INFO - ===> Epoch[0] start!
+2023-09-30 14:51:46,899 - INFO - data_dict saved to xxx/ucf_2023-09-30-14-51-46/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 14:52:29,350 - INFO - Save log to xxx
+2023-09-30 14:52:29,350 - INFO - --------------- Configuration ---------------
+2023-09-30 14:52:29,350 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:52:31,756 - INFO - ===> Epoch[0] start!
+2023-09-30 14:52:31,830 - INFO - data_dict saved to xxx/ucf_2023-09-30-14-52-31/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 14:54:57,729 - INFO - Save log to xxx
+2023-09-30 14:54:57,729 - INFO - --------------- Configuration ---------------
+2023-09-30 14:54:57,729 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:55:00,134 - INFO - ===> Epoch[0] start!
+2023-09-30 14:55:00,207 - INFO - data_dict saved to xxx/ucf_2023-09-30-14-55-00/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 14:55:44,816 - INFO - Save log to xxx
+2023-09-30 14:55:44,816 - INFO - --------------- Configuration ---------------
+2023-09-30 14:55:44,816 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:55:47,158 - INFO - ===> Epoch[0] start!
+2023-09-30 14:55:47,222 - INFO - data_dict saved to xxx/ucf_2023-09-30-14-55-47/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 14:57:15,250 - INFO - Save log to xxx
+2023-09-30 14:57:15,250 - INFO - --------------- Configuration ---------------
+2023-09-30 14:57:15,250 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 14:57:17,585 - INFO - ===> Epoch[0] start!
+2023-09-30 14:57:17,653 - INFO - data_dict saved to xxx/ucf_2023-09-30-14-57-17/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:05:36,815 - INFO - Save log to xxx
+2023-09-30 15:05:36,815 - INFO - --------------- Configuration ---------------
+2023-09-30 15:05:36,815 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:05:39,208 - INFO - ===> Epoch[0] start!
+2023-09-30 15:05:39,273 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-05-39/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:06:21,410 - INFO - Save log to xxx
+2023-09-30 15:06:21,410 - INFO - --------------- Configuration ---------------
+2023-09-30 15:06:21,410 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:06:23,798 - INFO - ===> Epoch[0] start!
+2023-09-30 15:06:23,865 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-06-23/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:09:00,058 - INFO - Save log to xxx
+2023-09-30 15:09:00,060 - INFO - --------------- Configuration ---------------
+2023-09-30 15:09:00,061 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:09:02,481 - INFO - ===> Epoch[0] start!
+2023-09-30 15:09:02,541 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-09-02/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:13:02,308 - INFO - Save log to xxx
+2023-09-30 15:13:02,328 - INFO - --------------- Configuration ---------------
+2023-09-30 15:13:02,328 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:13:04,729 - INFO - ===> Epoch[0] start!
+2023-09-30 15:13:04,801 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-13-04/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:15:28,351 - INFO - Save log to xxx
+2023-09-30 15:15:28,352 - INFO - --------------- Configuration ---------------
+2023-09-30 15:15:28,352 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:15:30,790 - INFO - ===> Epoch[0] start!
+2023-09-30 15:15:30,865 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-15-30/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:15:54,154 - INFO - Save log to xxx
+2023-09-30 15:15:54,154 - INFO - --------------- Configuration ---------------
+2023-09-30 15:15:54,154 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:15:56,477 - INFO - ===> Epoch[0] start!
+2023-09-30 15:15:56,534 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-15-56/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:23:10,961 - INFO - Save log to xxx
+2023-09-30 15:23:10,983 - INFO - --------------- Configuration ---------------
+2023-09-30 15:23:10,983 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:23:13,467 - INFO - ===> Epoch[0] start!
+2023-09-30 15:23:13,528 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-23-13/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:24:03,381 - INFO - Save log to xxx
+2023-09-30 15:24:03,381 - INFO - --------------- Configuration ---------------
+2023-09-30 15:24:03,381 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:24:05,806 - INFO - ===> Epoch[0] start!
+2023-09-30 15:24:05,873 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-24-05/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:27:25,153 - INFO - Save log to xxx
+2023-09-30 15:27:25,154 - INFO - --------------- Configuration ---------------
+2023-09-30 15:27:25,154 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:27:27,571 - INFO - ===> Epoch[0] start!
+2023-09-30 15:27:27,637 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-27-27/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:27:50,138 - INFO - Save log to xxx
+2023-09-30 15:27:50,140 - INFO - --------------- Configuration ---------------
+2023-09-30 15:27:50,140 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:27:52,518 - INFO - ===> Epoch[0] start!
+2023-09-30 15:27:52,587 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-27-52/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 15:29:30,757 - INFO - Save log to xxx
+2023-09-30 15:29:30,757 - INFO - --------------- Configuration ---------------
+2023-09-30 15:29:30,757 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:32:09,282 - INFO - Save log to xxx
+2023-09-30 15:32:09,282 - INFO - --------------- Configuration ---------------
+2023-09-30 15:32:09,282 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 15:32:11,585 - INFO - ===> Epoch[0] start!
+2023-09-30 15:32:11,651 - INFO - data_dict saved to xxx/ucf_2023-09-30-15-32-11/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:27:23,110 - INFO - Save log to xxx
+2023-09-30 16:27:23,115 - INFO - --------------- Configuration ---------------
+2023-09-30 16:27:23,115 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 512
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:27:25,426 - INFO - ===> Epoch[0] start!
+2023-09-30 16:27:25,496 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-27-25/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:29:19,986 - INFO - Save log to xxx
+2023-09-30 16:29:19,988 - INFO - --------------- Configuration ---------------
+2023-09-30 16:29:19,988 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:29:22,453 - INFO - ===> Epoch[0] start!
+2023-09-30 16:29:22,515 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-29-22/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:34:50,406 - INFO - Save log to xxx
+2023-09-30 16:34:50,436 - INFO - --------------- Configuration ---------------
+2023-09-30 16:34:50,436 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:34:52,788 - INFO - ===> Epoch[0] start!
+2023-09-30 16:34:52,864 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-34-52/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:35:11,651 - INFO - Save log to xxx
+2023-09-30 16:35:11,651 - INFO - --------------- Configuration ---------------
+2023-09-30 16:35:11,652 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:35:14,048 - INFO - ===> Epoch[0] start!
+2023-09-30 16:35:14,120 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-35-14/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:36:21,465 - INFO - Save log to xxx
+2023-09-30 16:36:21,467 - INFO - --------------- Configuration ---------------
+2023-09-30 16:36:21,467 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:36:23,857 - INFO - ===> Epoch[0] start!
+2023-09-30 16:36:23,934 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-36-23/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:39:17,841 - INFO - Save log to xxx
+2023-09-30 16:39:17,866 - INFO - --------------- Configuration ---------------
+2023-09-30 16:39:17,867 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:39:20,211 - INFO - ===> Epoch[0] start!
+2023-09-30 16:39:20,289 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-39-20/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:39:33,081 - INFO - Save log to xxx
+2023-09-30 16:39:33,081 - INFO - --------------- Configuration ---------------
+2023-09-30 16:39:33,081 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:39:35,416 - INFO - ===> Epoch[0] start!
+2023-09-30 16:39:35,481 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-39-35/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:40:32,027 - INFO - Save log to xxx
+2023-09-30 16:40:32,043 - INFO - --------------- Configuration ---------------
+2023-09-30 16:40:32,044 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:40:34,393 - INFO - ===> Epoch[0] start!
+2023-09-30 16:40:34,459 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-40-34/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:41:21,527 - INFO - Save log to xxx
+2023-09-30 16:41:21,528 - INFO - --------------- Configuration ---------------
+2023-09-30 16:41:21,529 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:41:23,844 - INFO - ===> Epoch[0] start!
+2023-09-30 16:41:23,908 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-41-23/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:43:12,914 - INFO - Save log to xxx
+2023-09-30 16:43:12,914 - INFO - --------------- Configuration ---------------
+2023-09-30 16:43:12,914 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:43:15,303 - INFO - ===> Epoch[0] start!
+2023-09-30 16:43:15,363 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-43-15/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:44:15,343 - INFO - Save log to xxx
+2023-09-30 16:44:15,346 - INFO - --------------- Configuration ---------------
+2023-09-30 16:44:15,346 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:44:17,719 - INFO - ===> Epoch[0] start!
+2023-09-30 16:44:17,789 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-44-17/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:45:43,661 - INFO - Save log to xxx
+2023-09-30 16:45:43,667 - INFO - --------------- Configuration ---------------
+2023-09-30 16:45:43,667 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:45:46,086 - INFO - ===> Epoch[0] start!
+2023-09-30 16:45:46,155 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-45-46/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:47:23,558 - INFO - Save log to xxx
+2023-09-30 16:47:23,558 - INFO - --------------- Configuration ---------------
+2023-09-30 16:47:23,558 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:47:25,953 - INFO - ===> Epoch[0] start!
+2023-09-30 16:47:26,023 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-47-25/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:47:40,633 - INFO - Save log to xxx
+2023-09-30 16:47:40,636 - INFO - --------------- Configuration ---------------
+2023-09-30 16:47:40,636 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:47:43,086 - INFO - ===> Epoch[0] start!
+2023-09-30 16:47:43,151 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-47-43/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:52:31,103 - INFO - Save log to xxx
+2023-09-30 16:52:31,104 - INFO - --------------- Configuration ---------------
+2023-09-30 16:52:31,105 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:52:33,438 - INFO - ===> Epoch[0] start!
+2023-09-30 16:52:33,509 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-52-33/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:53:22,949 - INFO - Save log to xxx
+2023-09-30 16:53:22,949 - INFO - --------------- Configuration ---------------
+2023-09-30 16:53:22,949 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:53:25,369 - INFO - ===> Epoch[0] start!
+2023-09-30 16:53:25,433 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-53-25/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:56:12,782 - INFO - Save log to xxx
+2023-09-30 16:56:12,817 - INFO - --------------- Configuration ---------------
+2023-09-30 16:56:12,818 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:56:15,228 - INFO - ===> Epoch[0] start!
+2023-09-30 16:56:15,288 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-56-15/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 16:58:14,463 - INFO - Save log to xxx
+2023-09-30 16:58:14,463 - INFO - --------------- Configuration ---------------
+2023-09-30 16:58:14,463 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 16:58:16,942 - INFO - ===> Epoch[0] start!
+2023-09-30 16:58:17,009 - INFO - data_dict saved to xxx/ucf_2023-09-30-16-58-16/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 17:00:07,347 - INFO - Save log to xxx
+2023-09-30 17:00:07,349 - INFO - --------------- Configuration ---------------
+2023-09-30 17:00:07,349 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 17:00:09,690 - INFO - ===> Epoch[0] start!
+2023-09-30 17:00:09,747 - INFO - data_dict saved to xxx/ucf_2023-09-30-17-00-09/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 17:07:02,173 - INFO - Save log to xxx
+2023-09-30 17:07:02,202 - INFO - --------------- Configuration ---------------
+2023-09-30 17:07:02,203 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 17:07:13,768 - INFO - ===> Epoch[0] start!
+2023-09-30 17:07:13,834 - INFO - data_dict saved to xxx/ucf_2023-09-30-17-07-13/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 17:09:01,912 - INFO - Save log to xxx
+2023-09-30 17:09:01,912 - INFO - --------------- Configuration ---------------
+2023-09-30 17:09:01,930 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 17:09:13,480 - INFO - ===> Epoch[0] start!
+2023-09-30 17:09:13,562 - INFO - data_dict saved to xxx/ucf_2023-09-30-17-09-13/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 17:12:22,927 - INFO - Save log to xxx
+2023-09-30 17:12:22,929 - INFO - --------------- Configuration ---------------
+2023-09-30 17:12:22,929 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 17:12:34,978 - INFO - ===> Epoch[0] start!
+2023-09-30 17:12:35,051 - INFO - data_dict saved to xxx/ucf_2023-09-30-17-12-34/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 17:13:43,667 - INFO - Save log to xxx
+2023-09-30 17:13:43,672 - INFO - --------------- Configuration ---------------
+2023-09-30 17:13:43,672 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 17:13:55,707 - INFO - ===> Epoch[0] start!
+2023-09-30 17:13:55,772 - INFO - data_dict saved to xxx/ucf_2023-09-30-17-13-55/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 17:14:25,318 - INFO - Save log to xxx
+2023-09-30 17:14:25,318 - INFO - --------------- Configuration ---------------
+2023-09-30 17:14:25,318 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 17:14:37,510 - INFO - ===> Epoch[0] start!
+2023-09-30 17:14:37,581 - INFO - data_dict saved to xxx/ucf_2023-09-30-17-14-37/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 17:16:47,295 - INFO - Save log to xxx
+2023-09-30 17:16:47,295 - INFO - --------------- Configuration ---------------
+2023-09-30 17:16:47,295 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 17:16:58,855 - INFO - ===> Epoch[0] start!
+2023-09-30 17:16:58,920 - INFO - data_dict saved to xxx/ucf_2023-09-30-17-16-58/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 17:17:23,045 - INFO - Save log to xxx
+2023-09-30 17:17:23,045 - INFO - --------------- Configuration ---------------
+2023-09-30 17:17:23,046 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 17:17:35,057 - INFO - ===> Epoch[0] start!
+2023-09-30 17:17:35,126 - INFO - data_dict saved to xxx/ucf_2023-09-30-17-17-35/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 18:14:24,193 - INFO - Save log to xxx
+2023-09-30 18:14:24,195 - INFO - --------------- Configuration ---------------
+2023-09-30 18:14:24,195 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 18:14:27,246 - INFO - ===> Epoch[0] start!
+2023-09-30 18:14:27,323 - INFO - data_dict saved to xxx/ucf_2023-09-30-18-14-27/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 18:14:37,650 - INFO - Iter: 0    training-loss, overall: 1.5375685691833496    training-loss, common: 0.6902305483818054    training-loss, specific: 1.9534465074539185    training-loss, reconstruction: 0.19218173623085022    training-loss, contrastive: 11.886777877807617    
+2023-09-30 18:14:37,651 - INFO - Iter: 0    training-metric, acc: 0.5    training-metric, acc_spe: 0.0    training-metric, auc: 0.90625    training-metric, eer: 0.125    training-metric, ap: 0.8956845238095238    
+2023-09-30 18:14:58,096 - INFO - Save log to xxx
+2023-09-30 18:14:58,096 - INFO - --------------- Configuration ---------------
+2023-09-30 18:14:58,096 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 18:15:00,918 - INFO - ===> Epoch[0] start!
+2023-09-30 18:15:00,978 - INFO - data_dict saved to xxx/ucf_2023-09-30-18-15-00/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 18:15:04,726 - INFO - Iter: 0    training-loss, overall: 1.5375685691833496    training-loss, common: 0.6902305483818054    training-loss, specific: 1.9534465074539185    training-loss, reconstruction: 0.19218173623085022    training-loss, contrastive: 11.886777877807617    
+2023-09-30 18:15:04,728 - INFO - Iter: 0    training-metric, acc: 0.5    training-metric, acc_spe: 0.0    training-metric, auc: 0.90625    training-metric, eer: 0.125    training-metric, ap: 0.8956845238095238    
+2023-09-30 18:16:19,908 - INFO - Save log to xxx
+2023-09-30 18:16:19,908 - INFO - --------------- Configuration ---------------
+2023-09-30 18:16:19,908 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 18:16:22,736 - INFO - ===> Epoch[0] start!
+2023-09-30 18:16:22,813 - INFO - data_dict saved to xxx/ucf_2023-09-30-18-16-22/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 18:16:26,708 - INFO - Iter: 0    training-loss, overall: 1.5375685691833496    training-loss, common: 0.6902305483818054    training-loss, specific: 1.9534465074539185    training-loss, reconstruction: 0.19218173623085022    training-loss, contrastive: 11.886777877807617    
+2023-09-30 18:16:26,708 - INFO - Iter: 0    training-metric, acc: 0.5    training-metric, acc_spe: 0.0    training-metric, auc: 0.90625    training-metric, eer: 0.125    training-metric, ap: 0.8956845238095238    
+2023-09-30 18:22:50,337 - INFO - Save log to xxx
+2023-09-30 18:22:50,353 - INFO - --------------- Configuration ---------------
+2023-09-30 18:22:50,354 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 18:22:53,101 - INFO - ===> Epoch[0] start!
+2023-09-30 18:22:53,177 - INFO - data_dict saved to xxx/ucf_2023-09-30-18-22-53/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 18:40:45,436 - INFO - Save log to xxx
+2023-09-30 18:40:45,436 - INFO - --------------- Configuration ---------------
+2023-09-30 18:40:45,436 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 18:44:31,787 - INFO - Save log to xxx
+2023-09-30 18:44:31,820 - INFO - --------------- Configuration ---------------
+2023-09-30 18:44:31,820 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 18:45:54,386 - INFO - Save log to xxx
+2023-09-30 18:45:54,400 - INFO - --------------- Configuration ---------------
+2023-09-30 18:45:54,401 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 18:46:36,286 - INFO - Save log to xxx
+2023-09-30 18:46:36,286 - INFO - --------------- Configuration ---------------
+2023-09-30 18:46:36,287 - INFO - Parameters: 
+log_dir: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['Celeb-DF-v2']
+test_dataset: ['Celeb-DF-v1']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+compression: c23
+train_batchSize: 8
+test_batchSize: 8
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: True
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss'}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+
+2023-09-30 18:46:39,818 - INFO - ===> Epoch[0] start!
+2023-09-30 18:46:39,891 - INFO - data_dict saved to xxx/ucf_2023-09-30-18-46-39/train/Celeb-DF-v2/data_dict_train.pickle
+2023-09-30 18:46:46,930 - INFO - Iter: 0    training-loss, overall: 1.531737208366394    training-loss, common: 0.6848553419113159    training-loss, specific: 1.9566409587860107    training-loss, reconstruction: 0.18938273191452026    training-loss, contrastive: 11.888057708740234    
+2023-09-30 18:46:46,932 - INFO - Iter: 0    training-metric, acc: 0.5    training-metric, acc_spe: 0.0625    training-metric, auc: 0.90625    training-metric, eer: 0.0    training-metric, ap: 0.9464285714285714    

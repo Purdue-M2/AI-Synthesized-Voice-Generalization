@@ -1,0 +1,49 @@
+## filename: environment.yml
+
+## Environment File Definition
+
+name: tfgpu_env # tensorflow-gpu environment
+channels:
+  - conda-forge
+  - anaconda
+  - default
+dependencies:
+  - python=3.8
+  ## Core Necessities
+  - numpy # -c conda-forge, anaconda
+  - pandas # -c conda-forge, anaconda
+  - tabulate # -c conda-forge, anaconda  # necessary for df.to_markdown() in pandas
+  - scipy # -c conda-forge, anaconda
+  - matplotlib # -c conda-forge, anaconda
+  ## Jupyter Related
+  - jupyter # -c anaconda, conda-forge
+  - jupyterlab # -c anaconda, conda-forge
+  - jupyter_dashboards # -c conda-forge  (see: https://medium.com/plotly/introducing-jupyterdash-811f1f57c02e)
+  - jupyter_contrib_nbextensions # -c conda-forge
+  ## Progressbar
+  - tqdm # -c conda-forge, anaconda
+  ## Machine Learning
+  - tensorflow-gpu=2.1 # -c anaconda | version: 2.4.1 (linux), 2.3.0 (windows)
+  # - tensorflow # -c anaconda | version: 2.2.0 (linux), 2.1.0 (windows)
+  - cudnn=8 # -c conda-forge | version: 8.1.0.77 (linux/windows)
+  #       # -c anaconda | version: 7.6.5 (linux/windows)
+  - cudatoolkit=11 # -c conda-forge | version: 8.1.0.77 (linux/windows)
+  #             # -c anaconda | version: 11.0.221 (linux/windows)
+  - scikit-learn # -c conda-forge, anaconda
+  ## Hyperparameter Optimization
+  - optuna # -c conda-forge # works for pytorch, tf/keras, mxnet, scikit-learn, xgboost, lightgbm
+  - keras-tuner # -c conda-forge
+  ## Image Processing
+  - opencv # -c conda-forge, anaconda
+  - imageio # -c anaconda, conda-forge
+  ## Image Augmentation
+  - albumentations # -c conda-forge
+  - imgaug # -c conda-forge
+  ## Code Linting
+  - pylint # -c conda-forge, anaconda
+  - autopep8 # -c conda-forge, anaconda
+  ## Installations with pip
+  - pip:
+    ## Web App Framework
+    # - Flask-Testing
+    - streamlit # https://docs.streamlit.io/en/stable/troubleshooting/clean-install.html

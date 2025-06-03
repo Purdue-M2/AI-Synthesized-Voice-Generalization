@@ -1,0 +1,48 @@
+--------------- Configuration ---------------
+Parameters: 
+log_dir: ./ucf_resnet_audio_lr0.0001_sgd_wo-melgan/ucf_2023-10-20-17-17-19/test/LibriSeVoc/ckpt_50.pth.Estimate.FakeAVCeleb
+tsne_fl: xxx
+pretrained: None
+model_name: ucf
+backbone_name: rawnet2
+encoder_feat_dim: 1024
+backbone_config: {'mode': 'adjust_channel', 'num_classes': 2, 'inc': 3, 'dropout': False, 'device': 0, 'margin': 2, 'nb_samp': 64000, 'first_conv': 128, 'in_channels': 1, 'filts': [128, [128, 128], [128, 512], [512, 512]], 'blocks': [2, 4], 'nb_fc_node': 1024, 'gru_node': 1024, 'nb_gru_layer': 3, 'nb_classes': 2, 'nb_vocoders': 7}
+all_dataset: ['FaceForensics++', 'FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT', 'FaceShifter', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0', 'UADFV']
+train_dataset: ['FF-F2F', 'FF-DF', 'FF-FS', 'FF-NT']
+test_dataset: ['FakeAVCeleb']
+dataset_json_folder: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/DeepfakeBench/preprocessing/dataset_json
+dataset_type: pair-audio
+train_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/train-ucf.list
+dev_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/LibriSeVoc/dev-ucf.list
+test_file: /face/hnren/3.SSL/codes/research_proposal/audio_deepfake_detection/codes/scripts/FakeAVCeleb_v1.2/audio/release/test.list
+compression: c23
+train_batchSize: 16
+test_batchSize: 32
+workers: 8
+frame_num: {'train': 32, 'test': 32}
+resolution: 256
+with_mask: False
+with_landmark: False
+save_ckpt: False
+save_feat: True
+label_dict: {'DFD_fake': 1, 'DFD_real': 0, 'FaceShifter': 1, 'FF-FH': 1, 'FF-DF': 1, 'FF-F2F': 2, 'FF-FS': 3, 'FF-NT': 4, 'FF-real': 0, 'CelebDFv1_real': 0, 'CelebDFv1_fake': 1, 'CelebDFv2_real': 0, 'CelebDFv2_fake': 1, 'DFDCP_Real': 0, 'DFDCP_FakeA': 1, 'DFDCP_FakeB': 1, 'DFDC_Fake': 1, 'DFDC_Real': 0, 'DF_fake': 1, 'DF_real': 0, 'UADFV_Fake': 1, 'UADFV_Real': 0}
+use_data_augmentation: True
+data_aug: {'flip_prob': 0.5, 'rotate_prob': 0.5, 'rotate_limit': [-10, 10], 'blur_prob': 0.5, 'blur_limit': [3, 7], 'brightness_prob': 0.5, 'brightness_limit': [-0.1, 0.1], 'contrast_limit': [-0.1, 0.1], 'quality_lower': 40, 'quality_upper': 100}
+mean: [0.5, 0.5, 0.5]
+std: [0.5, 0.5, 0.5]
+optimizer: {'type': 'adam', 'adam': {'lr': 0.0002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08, 'weight_decay': 0.0005, 'amsgrad': False}, 'sgd': {'lr': 0.0002, 'momentum': 0.9, 'weight_decay': 0.0005}}
+lr_scheduler: None
+nEpochs: 5
+start_epoch: 0
+save_epoch: 1
+rec_iter: 100
+logdir: ./logs
+manualSeed: 1024
+loss_func: {'cls_loss': 'cross_entropy', 'spe_loss': 'cross_entropy', 'con_loss': 'contrastive_regularization', 'rec_loss': 'l1loss', 'loss_lambda': 0.5}
+losstype: None
+metric_scoring: auc
+ngpu: 1
+cuda: True
+cudnn: True
+weights_path: ./ucf_resnet_audio_lr0.0001_sgd_wo-melgan/ucf_2023-10-20-17-17-19/test/LibriSeVoc/ckpt_50.pth
+
